@@ -1,0 +1,174 @@
+{
+    "version": "0.4",
+    "title": "Mobile Menu",
+    "type": "popup",
+    "metadata": {
+        "template_type": "section-popup",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "popup",
+        "additional_template_information": [
+            "This is a \"Popup\" template for Elementor Pro."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "54a7b8ac",
+            "settings": {
+                "flex_direction": "column",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "65f5e38f",
+                    "settings": {
+                        "menu_name": "Menu",
+                        "menu": "main-menu",
+                        "layout": "dropdown",
+                        "submenu_icon": {
+                            "value": "fas fa-chevron-down",
+                            "library": "fa-solid"
+                        },
+                        "toggle": "",
+                        "background_color_dropdown_item": "#02010100",
+                        "dropdown_border_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding_horizontal_dropdown_item": {
+                            "unit": "em",
+                            "size": "1.5",
+                            "sizes": []
+                        },
+                        "padding_horizontal_dropdown_item_laptop": {
+                            "unit": "em",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "padding_horizontal_dropdown_item_tablet": {
+                            "unit": "em",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "padding_horizontal_dropdown_item_mobile": {
+                            "unit": "em",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "padding_vertical_dropdown_item": {
+                            "unit": "em",
+                            "size": "1",
+                            "sizes": []
+                        },
+                        "padding_vertical_dropdown_item_laptop": {
+                            "unit": "em",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "padding_vertical_dropdown_item_tablet": {
+                            "unit": "em",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "padding_vertical_dropdown_item_mobile": {
+                            "unit": "em",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "dropdown_top_distance": {
+                            "unit": "px",
+                            "size": "0",
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "dropdown_typography_typography": "globals\/typography?id=ea18302",
+                            "background_color_dropdown_item_hover": "globals\/colors?id=accent",
+                            "color_dropdown_item_hover": "globals\/colors?id=5e046a0",
+                            "background_color_dropdown_item_active": "globals\/colors?id=accent",
+                            "color_dropdown_item_active": "globals\/colors?id=5e046a0"
+                        },
+                        "menu_id": 3
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "nav-menu",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": "",
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": "500",
+            "sizes": []
+        },
+        "height_type": "fit_to_screen",
+        "horizontal_position": "left",
+        "vertical_position": "top",
+        "entrance_animation": "fadeInLeft",
+        "exit_animation": "fadeInLeft",
+        "entrance_animation_duration": {
+            "unit": "px",
+            "size": "0.4",
+            "sizes": []
+        },
+        "background_background": "gradient",
+        "background_color": "#FAEBE1",
+        "border_radius": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": ""
+        },
+        "icon_size": {
+            "unit": "px",
+            "size": "20",
+            "sizes": []
+        },
+        "prevent_scroll": "yes",
+        "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": ""
+        },
+        "padding": {
+            "unit": "px",
+            "top": "80",
+            "right": "0",
+            "bottom": "80",
+            "left": "0",
+            "isLinked": ""
+        },
+        "__globals__": {
+            "background_color_b": "globals\/colors?id=5e046a0"
+        }
+    }
+}

@@ -1,0 +1,2263 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Glowvie - Beauty & Skincare Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Glowvie Home",
+            "screenshot": "screenshots\/glowvie-home.jpg",
+            "source": "templates\/glowvie-home.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "landing-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Glowvie About Us",
+            "screenshot": "screenshots\/glowvie-about-us.jpg",
+            "source": "templates\/glowvie-about-us.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Glowvie Package",
+            "screenshot": "screenshots\/glowvie-package.jpg",
+            "source": "templates\/glowvie-package.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-package\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Glowvie Services",
+            "screenshot": "screenshots\/glowvie-services.jpg",
+            "source": "templates\/glowvie-services.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Glowvie Service Single",
+            "screenshot": "screenshots\/glowvie-service-single.jpg",
+            "source": "templates\/glowvie-service-single.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-service-single\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Glowvie Appointment",
+            "screenshot": "screenshots\/glowvie-appointment.jpg",
+            "source": "templates\/glowvie-appointment.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-appointment\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Glowvie Contact",
+            "screenshot": "screenshots\/glowvie-contact.jpg",
+            "source": "templates\/glowvie-contact.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Glowvie FAQs",
+            "screenshot": "screenshots\/glowvie-faqs.jpg",
+            "source": "templates\/glowvie-faqs.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Glowvie Testimonials",
+            "screenshot": "screenshots\/glowvie-testimonials.jpg",
+            "source": "templates\/glowvie-testimonials.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/template-kit\/glowvie-testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer V2",
+            "screenshot": "screenshots\/footer-v2.jpg",
+            "source": "templates\/footer-v2.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/?elementor_library=footer-v2",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Mobile Menu",
+            "screenshot": "screenshots\/mobile-menu.png",
+            "source": "templates\/mobile-menu.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/?elementor_library=mobile-menu",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Error 404",
+            "screenshot": "screenshots\/error-404.jpg",
+            "source": "templates\/error-404.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/?elementor_library=error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general",
+                    "exclude\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.26.2",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.26.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "home-hero-updated-image-minified.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/home-hero-updated-image-minified-800x760.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 194534,
+            "dimensions": [
+                1000,
+                950
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-a-young-cheerful-beautiful-mixed-race--AQJMVHU"
+        },
+        {
+            "filename": "leafs.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/leafs.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 32014,
+            "dimensions": [
+                678,
+                317
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "her0-bottom-left.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/her0-bottom-left.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 8671,
+            "dimensions": [
+                271,
+                348
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "main-banner-small-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/main-banner-small-image.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 26518,
+            "dimensions": [
+                522,
+                638
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/mockup-white-plastic-tube-with-facial-or-hand-mois-AL4XHG7"
+        },
+        {
+            "filename": "double-circle.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/double-circle.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 1414,
+            "dimensions": [
+                61,
+                36
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Portal.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Portal.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 514,
+            "dimensions": [
+                24,
+                24
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "flower.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/flower.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                },
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                },
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                },
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 2122,
+            "dimensions": [
+                60,
+                68
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon1.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/icon1.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 5026,
+            "dimensions": [
+                145,
+                144
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon2.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/icon2.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 4028,
+            "dimensions": [
+                145,
+                144
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon3.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/icon3.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 6087,
+            "dimensions": [
+                145,
+                144
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon4.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/icon4.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 4809,
+            "dimensions": [
+                145,
+                144
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "story-image-compressed.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/story-image-compressed-800x790.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                }
+            ],
+            "filesize": 76152,
+            "dimensions": [
+                1000,
+                987
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/the-process-of-ageing-G8FNKD6"
+        },
+        {
+            "filename": "indicator.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/indicator.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 3213,
+            "dimensions": [
+                754,
+                96
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "right-static-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/right-static-image.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 30850,
+            "dimensions": [
+                468,
+                520
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/side-of-a-young-beautiful-mixed-race-womans-face-s-UNK3XD7"
+        },
+        {
+            "filename": "5-Dots.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/5-Dots-800x771.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 64879,
+            "dimensions": [
+                1374,
+                1325
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "bottom-shape.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/bottom-shape-800x239.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 111502,
+            "dimensions": [
+                1080,
+                323
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "rain.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/rain.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 3853,
+            "dimensions": [
+                97,
+                96
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "bel.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/bel.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 3369,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "hair.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/hair.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 3467,
+            "dimensions": [
+                97,
+                96
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "benefit-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/benefit-image-800x722.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 76707,
+            "dimensions": [
+                1080,
+                975
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/black-woman-lotion-and-portrait-of-a-young-model-w-P7VM3G7"
+        },
+        {
+            "filename": "service-top-left.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service-top-left.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 38369,
+            "dimensions": [
+                624,
+                733
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "service-bottom-right.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service-bottom-right.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 47141,
+            "dimensions": [
+                643,
+                877
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "service1.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                }
+            ],
+            "filesize": 46237,
+            "dimensions": [
+                684,
+                825
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/top-view-of-a-gorgeous-well-groomed-smiling-hispan-SL5NYYA"
+        },
+        {
+            "filename": "arrow-right.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/arrow-right.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 490,
+            "dimensions": [
+                32,
+                32
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "service2.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                }
+            ],
+            "filesize": 44227,
+            "dimensions": [
+                684,
+                825
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/woman-cleans-skin-of-the-body-with-coffee-scrub-in-2UKZQ69"
+        },
+        {
+            "filename": "service3.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                }
+            ],
+            "filesize": 72782,
+            "dimensions": [
+                684,
+                825
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/vertical-photo-of-latin-woman-with-curly-hair-appl-QCB9RRC"
+        },
+        {
+            "filename": "service4.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 53619,
+            "dimensions": [
+                684,
+                825
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/makeup-is-art-beauty-is-spirit-shot-of-young-woman-UL3CQNU"
+        },
+        {
+            "filename": "service5.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 45959,
+            "dimensions": [
+                684,
+                825
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-woman-showing-little-bottle-with-massage-b-LWB5BK9"
+        },
+        {
+            "filename": "service6.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 53687,
+            "dimensions": [
+                684,
+                825
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/face-mask-smile-and-woman-in-studio-with-skincare--XHHK78F"
+        },
+        {
+            "filename": "check.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/check.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 2007,
+            "dimensions": [
+                63,
+                63
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "how-we-work-compressed.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/how-we-work-compressed-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 62499,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/side-of-a-young-beautiful-mixed-race-womans-face-s-UNK3XD7"
+        },
+        {
+            "filename": "circle-image.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/circle-image.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 17627,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/studio-portrait-of-an-attractive-young-woman-posin-ZK429UA"
+        },
+        {
+            "filename": "testimonial2.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/testimonial2.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 17191,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-skincare-and-smile-with-a-model-woman-in--SVZ2NF3"
+        },
+        {
+            "filename": "CTA-image-updated.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/CTA-image-updated.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 52706,
+            "dimensions": [
+                529,
+                540
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-young-woman-doing-her-skincare-routine-s-HFX5552"
+        },
+        {
+            "filename": "CTA-image2-updated.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/CTA-image2-updated.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 49058,
+            "dimensions": [
+                529,
+                539
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-naked-woman-with-shiny-makeup-in-round-p-B5LMKDL"
+        },
+        {
+            "filename": "gallery-left-leaf.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/gallery-left-leaf-800x752.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 54312,
+            "dimensions": [
+                1028,
+                966
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Frame-414.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Frame-414-800x661.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 48508,
+            "dimensions": [
+                953,
+                788
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "gallery1.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/gallery1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 74765,
+            "dimensions": [
+                366,
+                383
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/face-beauty-and-natural-with-a-model-black-woman-i-WV575QR"
+        },
+        {
+            "filename": "gallery6.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/gallery6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 51294,
+            "dimensions": [
+                367,
+                383
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/studio-portrait-of-an-attractive-young-woman-posin-ZK429UA"
+        },
+        {
+            "filename": "gallery2.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/gallery2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 37294,
+            "dimensions": [
+                367,
+                383
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-naked-woman-with-shiny-makeup-in-round-p-B5LMKDL"
+        },
+        {
+            "filename": "gallery5.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/gallery5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 45599,
+            "dimensions": [
+                366,
+                383
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-young-woman-doing-her-skincare-routine-s-HFX5552"
+        },
+        {
+            "filename": "gallery3.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/gallery3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 66240,
+            "dimensions": [
+                366,
+                383
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/vertical-photo-of-latin-woman-with-curly-hair-appl-QCB9RRC"
+        },
+        {
+            "filename": "gallery4.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/gallery4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                }
+            ],
+            "filesize": 37017,
+            "dimensions": [
+                367,
+                383
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/side-of-a-young-beautiful-mixed-race-womans-face-s-UNK3XD7"
+        },
+        {
+            "filename": "faq-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/faq-image-800x889.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                },
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                }
+            ],
+            "filesize": 55548,
+            "dimensions": [
+                957,
+                1064
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-woman-and-portrait-in-studio-for-skincare-d-TNJ5HHW"
+        },
+        {
+            "filename": "phone-1.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/phone-1.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                },
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                }
+            ],
+            "filesize": 2675,
+            "dimensions": [
+                104,
+                105
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "1st-Palm.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/1st-Palm.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                }
+            ],
+            "filesize": 16106,
+            "dimensions": [
+                413,
+                570
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "CTA-Left-Image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/CTA-Left-Image-800x542.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-home.json",
+                    "name": "Glowvie Home"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                }
+            ],
+            "filesize": 85005,
+            "dimensions": [
+                1440,
+                975
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/woman-cosmetologist-to-work-in-beauty-salon-PXUH8BP"
+        },
+        {
+            "filename": "updated-pattern.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/updated-pattern-800x166.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                },
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                },
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                },
+                {
+                    "source": "templates\/glowvie-contact.json",
+                    "name": "Glowvie Contact"
+                },
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                },
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 98500,
+            "dimensions": [
+                1920,
+                399
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "about-hero-top-leaf.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/about-hero-top-leaf.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                },
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                },
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                },
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                },
+                {
+                    "source": "templates\/glowvie-contact.json",
+                    "name": "Glowvie Contact"
+                },
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                },
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 8763,
+            "dimensions": [
+                362,
+                352
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "about-hero-image1.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/about-hero-image1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 55334,
+            "dimensions": [
+                524,
+                700
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/side-of-a-young-beautiful-mixed-race-womans-face-s-UNK3XD7"
+        },
+        {
+            "filename": "about-hero-image2.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/about-hero-image2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 47399,
+            "dimensions": [
+                524,
+                699
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-naked-woman-with-shiny-makeup-in-round-p-B5LMKDL"
+        },
+        {
+            "filename": "Team.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Team-800x554.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 19823,
+            "dimensions": [
+                840,
+                582
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "mission1.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/mission1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 31865,
+            "dimensions": [
+                684,
+                683
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-concept-G6C8CEE"
+        },
+        {
+            "filename": "mission2.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/mission2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 32404,
+            "dimensions": [
+                684,
+                683
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-woman-showing-little-bottle-with-massage-b-LWB5BK9"
+        },
+        {
+            "filename": "mission3.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/mission3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 37459,
+            "dimensions": [
+                684,
+                683
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/dermatologist-conducts-ultrasonic-cleaning-with-sc-H7JJDEW"
+        },
+        {
+            "filename": "line.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/line-800x464.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 12320,
+            "dimensions": [
+                908,
+                527
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "sign.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/sign.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 5903,
+            "dimensions": [
+                207,
+                105
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "story-left-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/story-left-image-800x683.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 101146,
+            "dimensions": [
+                1440,
+                1230
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/studio-shot-of-an-attractive-young-woman-posing-ag-MAYASFE"
+        },
+        {
+            "filename": "difference.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/difference-800x839.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 69778,
+            "dimensions": [
+                930,
+                975
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-young-woman-doing-her-skincare-routine-s-HFX5552"
+        },
+        {
+            "filename": "care.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/care.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 4728,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "product.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/product.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 4248,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "expert.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/expert.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 3977,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Team1.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Team1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 40410,
+            "dimensions": [
+                684,
+                869
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-woman-skin-care-beautiful-female-hand-touch-LV2A7AD"
+        },
+        {
+            "filename": "Team2.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Team2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 39256,
+            "dimensions": [
+                684,
+                869
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-woman-healthy-skin-care-concept-portrait-DHCAS2W"
+        },
+        {
+            "filename": "Team3.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Team3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 37148,
+            "dimensions": [
+                684,
+                869
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-woman-and-portrait-in-studio-for-skincare-d-TNJ5HHW"
+        },
+        {
+            "filename": "5-Dots-1.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/5-Dots-1.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 1821,
+            "dimensions": [
+                69,
+                69
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "left-spring.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/left-spring.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 8388,
+            "dimensions": [
+                353,
+                185
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "about-cta2.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/about-cta2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 62594,
+            "dimensions": [
+                663,
+                609
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/dermatologist-conducts-ultrasonic-cleaning-with-sc-H7JJDEW"
+        },
+        {
+            "filename": "bottom-leafr.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/bottom-leafr.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 6860,
+            "dimensions": [
+                270,
+                218
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "about-cta.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/about-cta.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 65493,
+            "dimensions": [
+                648,
+                635
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-young-woman-doing-her-skincare-routine-s-HFX5552"
+        },
+        {
+            "filename": "right-spring.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/right-spring.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-about-us.json",
+                    "name": "Glowvie About Us"
+                }
+            ],
+            "filesize": 15876,
+            "dimensions": [
+                326,
+                373
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "package-hero-image.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/package-hero-image-800x697.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                }
+            ],
+            "filesize": 138712,
+            "dimensions": [
+                930,
+                810
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/my-skin-feels-beautiful-HA7LM3V"
+        },
+        {
+            "filename": "package-flower.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/package-flower-800x747.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                }
+            ],
+            "filesize": 28786,
+            "dimensions": [
+                845,
+                789
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Package-shape.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Package-shape-800x224.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                }
+            ],
+            "filesize": 25970,
+            "dimensions": [
+                848,
+                237
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "package-leaf.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/package-leaf.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-package.json",
+                    "name": "Glowvie Package"
+                },
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 12353,
+            "dimensions": [
+                357,
+                395
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "service-static-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service-static-image-800x839.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-services.json",
+                    "name": "Glowvie Services"
+                }
+            ],
+            "filesize": 53143,
+            "dimensions": [
+                930,
+                975
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/woman-applying-cream-on-face-WDBWG85"
+        },
+        {
+            "filename": "Service-single-hero-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Service-single-hero-image.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 39958,
+            "dimensions": [
+                684,
+                708
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/top-view-of-a-gorgeous-well-groomed-smiling-hispan-SL5NYYA"
+        },
+        {
+            "filename": "Team-dots.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Team-dots-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 27089,
+            "dimensions": [
+                920,
+                920
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "need-large.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/need-large-800x839.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 56430,
+            "dimensions": [
+                930,
+                975
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-woman-skin-care-beautiful-female-hand-touch-2PLX8GD"
+        },
+        {
+            "filename": "service-single-cta.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/service-single-cta-800x683.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-service-single.json",
+                    "name": "Glowvie Service Single"
+                }
+            ],
+            "filesize": 96784,
+            "dimensions": [
+                1440,
+                1230
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/top-view-of-a-gorgeous-well-groomed-smiling-hispan-SL5NYYA"
+        },
+        {
+            "filename": "Appointment-hero-image.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/Appointment-hero-image-800x606.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                }
+            ],
+            "filesize": 150891,
+            "dimensions": [
+                1001,
+                758
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-studio-face-or-happy-woman-with-cotton-pad--YSUTWWZ"
+        },
+        {
+            "filename": "bottom-shape-1.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/bottom-shape-1.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                }
+            ],
+            "filesize": 55449,
+            "dimensions": [
+                259,
+                245
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/mockup-white-plastic-tube-with-facial-or-hand-mois-AL4XHG7"
+        },
+        {
+            "filename": "cream.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/cream.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                }
+            ],
+            "filesize": 60914,
+            "dimensions": [
+                277,
+                393
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/mockup-white-plastic-tube-with-facial-or-hand-mois-AL4XHG7"
+        },
+        {
+            "filename": "appointment-top-image-compressed.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/appointment-top-image-compressed-800x802.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                }
+            ],
+            "filesize": 106340,
+            "dimensions": [
+                987,
+                990
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/pretty-young-woman-cosmetologist-posing-to-camera--7ZWRKDS"
+        },
+        {
+            "filename": "appointment-left-image1-updated.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/appointment-left-image1-updated.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                }
+            ],
+            "filesize": 69181,
+            "dimensions": [
+                435,
+                915
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-asian-woman-face-portrait-beautiful-spa-mod-P2RJL7D"
+        },
+        {
+            "filename": "appointment-faq-2-updated.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/appointment-faq-2-updated.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-appointment.json",
+                    "name": "Glowvie Appointment"
+                }
+            ],
+            "filesize": 130757,
+            "dimensions": [
+                609,
+                975
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/close-up-of-hands-of-the-doctor-with-apparatus-for-H7FA2NM"
+        },
+        {
+            "filename": "contact-hero-image.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/contact-hero-image-800x500.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-contact.json",
+                    "name": "Glowvie Contact"
+                }
+            ],
+            "filesize": 236127,
+            "dimensions": [
+                1305,
+                815
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/four-beautiful-multicultural-women-looking-at-came-MCKLM58"
+        },
+        {
+            "filename": "contact-image-compressed.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/12\/contact-image-compressed-800x642.jpg",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-contact.json",
+                    "name": "Glowvie Contact"
+                }
+            ],
+            "filesize": 104978,
+            "dimensions": [
+                1000,
+                803
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/woman-face-beauty-and-makeup-tools-for-skincare-we-ZS9DF3Y"
+        },
+        {
+            "filename": "faqs-hero-image.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/faqs-hero-image-800x632.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                }
+            ],
+            "filesize": 154823,
+            "dimensions": [
+                990,
+                782
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-foundation-and-relax-face-of-model-test-ski-XD3B42E"
+        },
+        {
+            "filename": "faqs-shape.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/faqs-shape.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                }
+            ],
+            "filesize": 17326,
+            "dimensions": [
+                470,
+                348
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "faq-bottom-leaf.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/faq-bottom-leaf-800x688.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-faqs.json",
+                    "name": "Glowvie FAQs"
+                }
+            ],
+            "filesize": 31149,
+            "dimensions": [
+                852,
+                733
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "shape-testimonial.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/shape-testimonial-800x649.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 56939,
+            "dimensions": [
+                888,
+                720
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "testimonial-hero-image.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/testimonial-hero-image.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 139041,
+            "dimensions": [
+                776,
+                825
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/woman-beauty-and-face-with-cream-product-for-happi-RK5WPA2"
+        },
+        {
+            "filename": "testimonial-bottom-right-leaft.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/testimonial-bottom-right-leaft.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 10466,
+            "dimensions": [
+                335,
+                329
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "testimonial3.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/testimonial3.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 19236,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/face-beauty-and-natural-with-a-model-black-woman-i-WV575QR"
+        },
+        {
+            "filename": "testimonial4.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/testimonial4.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 15779,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-woman-and-portrait-in-studio-for-skincare-d-TNJ5HHW"
+        },
+        {
+            "filename": "testimonial5.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/testimonial5.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 15088,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/beauty-woman-skin-care-beautiful-female-hand-touch-LV2A7AD"
+        },
+        {
+            "filename": "testimonial6.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/testimonial6.png",
+            "templates": [
+                {
+                    "source": "templates\/glowvie-testimonials.json",
+                    "name": "Glowvie Testimonials"
+                }
+            ],
+            "filesize": 15282,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/woman-applying-cream-on-face-WDBWG85"
+        },
+        {
+            "filename": "error-bottom-right-leaf.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/error-bottom-right-leaf.png",
+            "templates": [
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 13992,
+            "dimensions": [
+                593,
+                729
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "7.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/7.png",
+            "templates": [
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 5892,
+            "dimensions": [
+                285,
+                410
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "error-image.jpg",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/error-image.jpg",
+            "templates": [
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 49759,
+            "dimensions": [
+                681,
+                714
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/side-of-a-young-beautiful-mixed-race-womans-face-s-UNK3XD7"
+        },
+        {
+            "filename": "0.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/0.png",
+            "templates": [
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 8311,
+            "dimensions": [
+                337,
+                330
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "footer-logo.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/footer-logo.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 8267,
+            "dimensions": [
+                327,
+                81
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "phone.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/phone.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 2010,
+            "dimensions": [
+                54,
+                55
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "map.png",
+            "thumbnail_url": "https:\/\/templatekits2.wpmarvels.com\/glowvie\/wp-content\/uploads\/sites\/6\/2024\/11\/map.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 1927,
+            "dimensions": [
+                54,
+                55
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        }
+    ]
+}

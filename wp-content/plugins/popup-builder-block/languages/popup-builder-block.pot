@@ -1,0 +1,5372 @@
+# Copyright (C) 2026 Wpmet
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PopupKit 2.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/popup-builder-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-05T08:43:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: popup-builder-block\n"
+
+#. Plugin Name of the plugin
+#: popup-builder-block.php
+#: includes/Admin/Admin.php:41
+#: includes/Admin/Admin.php:42
+#: includes/Config/Blocks.php:93
+msgid "PopupKit"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: popup-builder-block.php
+msgid "https://wpmet.com/plugin/popupkit"
+msgstr ""
+
+#. Description of the plugin
+#: popup-builder-block.php
+msgid "Powerful popup builder with ready templates and easy customization."
+msgstr ""
+
+#. Author of the plugin
+#: popup-builder-block.php
+msgid "Wpmet"
+msgstr ""
+
+#. Author URI of the plugin
+#: popup-builder-block.php
+msgid "https://wpmet.com/"
+msgstr ""
+
+#: includes/Admin/Admin.php:52
+#: includes/Admin/Admin.php:53
+#: includes/Hooks/Cpt.php:32
+#: includes/Hooks/Cpt.php:34
+#: includes/Hooks/Cpt.php:38
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:491
+msgid "Campaigns"
+msgstr ""
+
+#: includes/Admin/Admin.php:60
+#: includes/Admin/Admin.php:61
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:267
+msgid "Subscribers"
+msgstr ""
+
+#: includes/Admin/Admin.php:68
+#: includes/Admin/Admin.php:69
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Header.js:94
+msgid "Analytics"
+msgstr ""
+
+#: includes/Admin/Admin.php:76
+#: includes/Admin/Admin.php:77
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:722
+msgid "Integrations"
+msgstr ""
+
+#: includes/Admin/Admin.php:84
+#: includes/Admin/Admin.php:85
+msgid "Templates"
+msgstr ""
+
+#: includes/Admin/Admin.php:92
+#: includes/Admin/Admin.php:93
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/index.js:85
+msgid "A/B Testing"
+msgstr ""
+
+#: includes/Admin/Admin.php:100
+#: includes/Admin/Admin.php:101
+msgid "Settings"
+msgstr ""
+
+#: includes/Config/SettingsList.php:14
+msgid "Unfiltered File Upload"
+msgstr ""
+
+#: includes/Config/SettingsList.php:15
+msgid "To be able to upload any SVG and JSON file from Media and PopupKit Icon Picker. PopupKit will remove any potentially harmful scripts and code by sanitizing the unfiltered files. We recommend enabling this feature only if you understand the security risks involved."
+msgstr ""
+
+#: includes/Config/SettingsList.php:23
+msgid "Download Remote Image"
+msgstr ""
+
+#: includes/Config/SettingsList.php:24
+msgid "To download remote images from Popupkit Templates while importing a template, enable the \"Download Remote Image\" option."
+msgstr ""
+
+#: includes/Config/SettingsList.php:32
+msgid "Remove All Data"
+msgstr ""
+
+#: includes/Config/SettingsList.php:33
+msgid "Enable this option to automatically delete all data related to the PopupKit when deleting this plugin."
+msgstr ""
+
+#: includes/Config/SettingsList.php:41
+msgid "Data Storage Duration for Analytics"
+msgstr ""
+
+#: includes/Config/SettingsList.php:42
+msgid "Generally, PoupKit stores campaign data into the database. You can set a period for automatic deletion of old campaign data using the options below. (Note that deleted data will not appear on the Analytics page.)"
+msgstr ""
+
+#: includes/Config/SettingsList.php:51
+msgid "User Consent"
+msgstr ""
+
+#: includes/Config/SettingsList.php:52
+msgid "Show update & fix related important messages, essential tutorials and promotional images of PopupKit on WP Dashboard"
+msgstr ""
+
+#: includes/Helpers/DataBase.php:526
+msgid "Invalid email address"
+msgstr ""
+
+#: includes/Hooks/Cpt.php:33
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Campaign.js:75
+#: src/admin/subscribers/index.js:221
+msgid "Campaign"
+msgstr ""
+
+#: includes/Hooks/Cpt.php:35
+#: includes/Hooks/Cpt.php:36
+msgid "Create Blank"
+msgstr ""
+
+#: includes/Hooks/Cpt.php:37
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Repeater.js:86
+msgid "Edit Campaign"
+msgstr ""
+
+#: includes/Hooks/Cpt.php:39
+msgid "Search Campaign"
+msgstr ""
+
+#: includes/Hooks/Cpt.php:45
+msgid "organize and manage popup campaigns"
+msgstr ""
+
+#: includes/Libs/UnfilteredFileSupport.php:75
+msgid "Sorry, you are not allowed to upload SVG files."
+msgstr ""
+
+#: includes/Libs/UnfilteredFileSupport.php:80
+#: includes/Libs/UnfilteredFileSupport.php:91
+msgid "Sorry, this file could not be sanitized so for security reasons was not uploaded."
+msgstr ""
+
+#: includes/Libs/UnfilteredFileSupport.php:86
+msgid "Sorry, you are not allowed to upload JSON files."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:127
+msgid "Our Plugins"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:130
+msgid "Take Your WordPress Website To Next Level!"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:133
+msgid "Our diverse range of plugins has every solution for WordPress, Gutenberg, Elementor, and WooCommerce."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:139
+msgid "ElementsKit"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:142
+msgid "All-in-one Elementor addon trusted by 1 Million+ users, makes your website builder process easier with ultimate freedom."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:146
+msgid "GutenKit"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:149
+msgid "Page Builder Blocks, Patterns, and Templates for Gutenberg Block Editor."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:153
+msgid "GetGenie AI"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:156
+msgid "Your personal AI assistant for content and SEO. Write content that ranks on Google with NLP keywords and SERP analysis data."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:160
+msgid "ShopEngine"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:163
+msgid "Complete WooCommerce solution for Elementor to fully customize any pages including cart, checkout, shop page, and so on."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:167
+msgid "MetForm"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:170
+msgid "Drag & drop form builder for Elementor to create contact forms, multi-step forms, and more — smoother, faster, and better!"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:174
+msgid "EmailKit"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:177
+msgid "Advanced email customizer for WooCommerce and WordPress. Build, customize, and send emails from WordPress to boost your sales!"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:181
+msgid "WP Social"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:184
+msgid "Add social share, login, and engagement counter — unified solution for all social media with tons of different styles for your website."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:188
+msgid "WP Ultimate Review"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:191
+msgid "Collect and showcase reviews on your website to build brand credibility and social proof with the easiest solution."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:195
+msgid "FundEngine"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:198
+msgid "Create fundraising, crowdfunding, and donation websites with PayPal and Stripe payment gateway integration."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:202
+msgid "Blocks for ShopEngine"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:205
+msgid "All in one WooCommerce solution for Gutenberg! Build your WooCommerce pages in a block editor with full customization."
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:209
+msgid "Genie Image"
+msgstr ""
+
+#: includes/Libs/UtilityPackages.php:212
+msgid "AI-powered text-to-image generator for WordPress with OpenAI’s DALL-E 2 technology to generate high-quality images in one click."
+msgstr ""
+
+#: includes/Routes/Onboard.php:72
+msgid "Failed to send onboard data."
+msgstr ""
+
+#: includes/Routes/Onboard.php:84
+#: includes/Routes/Onboard.php:91
+msgid "Onboard data saved successfully."
+msgstr ""
+
+#. translators: %s: Field name
+#: includes/Routes/Popup.php:49
+#: includes/Routes/Popup.php:63
+#: includes/Routes/Popup.php:100
+#: includes/Routes/Popup.php:114
+#: includes/Routes/Subscribers.php:33
+#: includes/Routes/Subscribers.php:47
+#, php-format
+msgid "Invalid %s format. Expected YYYY-MM-DD."
+msgstr ""
+
+#: includes/Routes/Subscribers.php:104
+msgid "You have already submitted this form"
+msgstr ""
+
+#: includes/Routes/Subscribers.php:142
+msgid "Form data submitted successfully"
+msgstr ""
+
+#: includes/Routes/Subscribers.php:183
+msgid "Form data fetched successfully"
+msgstr ""
+
+#: includes/Routes/Subscribers.php:204
+msgid "Form data deleted successfully"
+msgstr ""
+
+#: popup-builder-block.php:106
+msgid "Build Popup"
+msgstr ""
+
+#: popup-builder-block.php:115
+msgid "Get PopupKit Pro"
+msgstr ""
+
+#: popup-builder-block.php:137
+msgid "View PopupKit Documentation"
+msgstr ""
+
+#: popup-builder-block.php:137
+msgid "Docs & FAQs"
+msgstr ""
+
+#: popup-builder-block.php:138
+msgid "View PopupKit Video Tutorials"
+msgstr ""
+
+#: popup-builder-block.php:138
+msgid "Video Tutorials"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:48
+#: src/blocks/advanced-paragraph/settings.js:43
+#: src/blocks/button/settings.js:102
+#: src/blocks/button/settings.js:114
+#: src/blocks/form/settings.js:436
+#: src/blocks/heading/settings.js:48
+#: src/blocks/heading/settings.js:213
+#: src/blocks/icon/settings.js:41
+#: src/blocks/popup-builder/settings.js:220
+msgid "Content"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:52
+#: src/blocks/advanced-paragraph/settings.js:47
+#: src/blocks/button/settings.js:106
+#: src/blocks/container/settings.js:42
+#: src/blocks/form/settings.js:440
+#: src/blocks/heading/settings.js:52
+#: src/blocks/icon/settings.js:45
+#: src/blocks/popup-builder/settings.js:224
+msgid "Style"
+msgstr ""
+
+#: build/200.js:1
+#: build/789.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/button/settings.js:216
+#: src/blocks/form/settings.js:533
+#: src/blocks/form/settings.js:678
+#: src/blocks/form/settings.js:1589
+#: src/blocks/icon/settings.js:55
+#: src/blocks/icon/settings.js:57
+#: src/blocks/icon/settings.js:101
+#: src/blocks/popup-builder/settings.js:2671
+msgid "Icon"
+msgstr ""
+
+#: build/200.js:1
+#: src/blocks/icon/settings.js:62
+msgid "Enable Link?"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/advanced-image/settings.js:82
+#: src/blocks/advanced-image/settings.js:876
+#: src/blocks/advanced-paragraph/settings.js:100
+#: src/blocks/button/settings.js:246
+#: src/blocks/form/settings.js:1628
+#: src/blocks/heading/settings.js:285
+#: src/blocks/icon/settings.js:74
+msgid "Alignment"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:88
+#: src/blocks/advanced-image/settings.js:882
+#: src/blocks/advanced-paragraph/settings.js:102
+#: src/blocks/button/settings.js:248
+#: src/blocks/form/settings.js:688
+#: src/blocks/form/settings.js:1647
+#: src/blocks/heading/settings.js:102
+#: src/blocks/heading/settings.js:287
+#: src/blocks/icon/settings.js:76
+#: src/blocks/popup-builder/settings.js:2236
+#: src/blocks/popup-builder/settings.js:2402
+msgid "Left"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:93
+#: src/blocks/advanced-image/settings.js:887
+#: src/blocks/advanced-paragraph/settings.js:103
+#: src/blocks/button/settings.js:249
+#: src/blocks/container/settings.js:261
+#: src/blocks/container/settings.js:319
+#: src/blocks/form/settings.js:1648
+#: src/blocks/heading/settings.js:288
+#: src/blocks/icon/settings.js:77
+#: src/blocks/popup-builder/settings.js:2179
+#: src/blocks/popup-builder/settings.js:2244
+#: src/blocks/popup-builder/settings.js:2293
+#: src/blocks/popup-builder/settings.js:2375
+msgid "Center"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:98
+#: src/blocks/advanced-image/settings.js:892
+#: src/blocks/advanced-paragraph/settings.js:104
+#: src/blocks/button/settings.js:250
+#: src/blocks/form/settings.js:693
+#: src/blocks/form/settings.js:1649
+#: src/blocks/heading/settings.js:103
+#: src/blocks/heading/settings.js:289
+#: src/blocks/icon/settings.js:78
+#: src/blocks/popup-builder/settings.js:2252
+#: src/blocks/popup-builder/settings.js:2410
+msgid "Right"
+msgstr ""
+
+#: build/200.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/form/settings.js:1598
+#: src/blocks/icon/settings.js:104
+#: src/blocks/popup-builder/settings.js:2713
+msgid "Size"
+msgstr ""
+
+#: build/200.js:1
+#: src/blocks/icon/settings.js:133
+msgid "Roate"
+msgstr ""
+
+#: build/200.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:563
+#: src/blocks/advanced-image/settings.js:1032
+#: src/blocks/advanced-paragraph/settings.js:174
+#: src/blocks/advanced-paragraph/settings.js:240
+#: src/blocks/button/settings.js:378
+#: src/blocks/button/settings.js:472
+#: src/blocks/button/settings.js:581
+#: src/blocks/container/settings.js:531
+#: src/blocks/container/settings.js:589
+#: src/blocks/container/settings.js:644
+#: src/blocks/form/settings.js:1446
+#: src/blocks/form/settings.js:1779
+#: src/blocks/icon/settings.js:150
+#: src/blocks/popup-builder/settings.js:2554
+#: src/blocks/popup-builder/settings.js:2790
+msgid "Normal"
+msgstr ""
+
+#: build/200.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:570
+#: src/blocks/advanced-image/settings.js:1036
+#: src/blocks/advanced-paragraph/settings.js:178
+#: src/blocks/advanced-paragraph/settings.js:244
+#: src/blocks/button/settings.js:382
+#: src/blocks/button/settings.js:476
+#: src/blocks/button/settings.js:585
+#: src/blocks/container/settings.js:535
+#: src/blocks/container/settings.js:593
+#: src/blocks/container/settings.js:648
+#: src/blocks/form/settings.js:1450
+#: src/blocks/form/settings.js:1783
+#: src/blocks/icon/settings.js:154
+#: src/blocks/popup-builder/settings.js:2558
+#: src/blocks/popup-builder/settings.js:2797
+msgid "Hover"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:912
+#: src/blocks/advanced-paragraph/settings.js:188
+#: src/blocks/advanced-paragraph/settings.js:208
+#: src/blocks/advanced-paragraph/settings.js:254
+#: src/blocks/advanced-paragraph/settings.js:270
+#: src/blocks/advanced-paragraph/settings.js:323
+#: src/blocks/advanced-paragraph/settings.js:428
+#: src/blocks/button/settings.js:392
+#: src/blocks/button/settings.js:416
+#: src/blocks/form/settings.js:1592
+#: src/blocks/heading/settings.js:343
+#: src/blocks/heading/settings.js:457
+#: src/blocks/heading/settings.js:592
+#: src/blocks/heading/settings.js:849
+#: src/blocks/icon/settings.js:163
+#: src/blocks/icon/settings.js:213
+#: src/blocks/popup-builder/settings.js:2812
+#: src/blocks/popup-builder/settings.js:2884
+msgid "Color"
+msgstr ""
+
+#: build/200.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1336
+#: src/blocks/form/settings.js:1469
+#: src/blocks/form/settings.js:1507
+#: src/blocks/form/settings.js:1545
+#: src/blocks/form/settings.js:1798
+#: src/blocks/form/settings.js:1829
+#: src/blocks/form/settings.js:1903
+#: src/blocks/icon/settings.js:170
+#: src/blocks/icon/settings.js:220
+msgid "Background Color"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:666
+#: src/blocks/advanced-image/settings.js:822
+#: src/blocks/advanced-paragraph/settings.js:289
+#: src/blocks/advanced-paragraph/settings.js:396
+#: src/blocks/advanced-paragraph/settings.js:466
+#: src/blocks/button/settings.js:507
+#: src/blocks/button/settings.js:551
+#: src/blocks/container/settings.js:677
+#: src/blocks/container/settings.js:722
+#: src/blocks/form/settings.js:1485
+#: src/blocks/form/settings.js:1523
+#: src/blocks/form/settings.js:1561
+#: src/blocks/form/settings.js:1858
+#: src/blocks/form/settings.js:1920
+#: src/blocks/heading/settings.js:534
+#: src/blocks/icon/settings.js:184
+#: src/blocks/icon/settings.js:238
+#: src/blocks/popup-builder/settings.js:2479
+#: src/blocks/popup-builder/settings.js:2955
+msgid "Border Radius"
+msgstr ""
+
+#: build/200.js:1
+#: build/891.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:688
+#: src/blocks/advanced-image/settings.js:844
+#: src/blocks/form/settings.js:1491
+#: src/blocks/form/settings.js:1529
+#: src/blocks/form/settings.js:1567
+#: src/blocks/form/settings.js:1813
+#: src/blocks/form/settings.js:1844
+#: src/blocks/form/settings.js:1913
+#: src/blocks/icon/settings.js:202
+#: src/blocks/icon/settings.js:256
+#: src/blocks/popup-builder/settings.js:2523
+#: src/blocks/popup-builder/settings.js:2863
+#: src/blocks/popup-builder/settings.js:2935
+msgid "Box Shadow"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:545
+#: src/blocks/advanced-paragraph/settings.js:305
+#: src/blocks/advanced-paragraph/settings.js:365
+#: src/blocks/advanced-paragraph/settings.js:482
+#: src/blocks/button/settings.js:310
+#: src/blocks/container/settings.js:491
+#: src/blocks/form/settings.js:1343
+#: src/blocks/form/settings.js:1581
+#: src/blocks/form/settings.js:1610
+#: src/blocks/form/settings.js:1872
+#: src/blocks/form/settings.js:1934
+#: src/blocks/heading/settings.js:309
+#: src/blocks/heading/settings.js:499
+#: src/blocks/heading/settings.js:627
+#: src/blocks/icon/settings.js:268
+#: src/blocks/popup-builder/settings.js:2501
+#: src/blocks/popup-builder/settings.js:2977
+msgid "Padding"
+msgstr ""
+
+#: build/200.js:1
+#: build/311.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:552
+#: src/blocks/advanced-paragraph/settings.js:124
+#: src/blocks/advanced-paragraph/settings.js:498
+#: src/blocks/button/settings.js:329
+#: src/blocks/container/settings.js:509
+#: src/blocks/form/settings.js:1360
+#: src/blocks/form/settings.js:1865
+#: src/blocks/form/settings.js:1927
+#: src/blocks/heading/settings.js:326
+#: src/blocks/heading/settings.js:363
+#: src/blocks/heading/settings.js:607
+#: src/blocks/heading/settings.js:695
+#: src/blocks/heading/settings.js:743
+#: src/blocks/heading/settings.js:860
+#: src/blocks/heading/settings.js:939
+#: src/blocks/icon/settings.js:286
+#: src/blocks/popup-builder/settings.js:2424
+msgid "Margin"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:62
+#: src/blocks/heading/settings.js:341
+msgid "Title"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:64
+msgid "HTML Tag"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:67
+#: src/blocks/heading/settings.js:149
+msgid "H1"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:68
+#: src/blocks/heading/settings.js:150
+msgid "H2"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:69
+#: src/blocks/heading/settings.js:151
+msgid "H3"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:70
+#: src/blocks/heading/settings.js:152
+msgid "H4"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:71
+#: src/blocks/heading/settings.js:153
+msgid "H5"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:72
+#: src/blocks/heading/settings.js:154
+msgid "H6"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:73
+#: src/blocks/heading/settings.js:155
+msgid "div"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:74
+#: src/blocks/heading/settings.js:156
+msgid "span"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:75
+#: src/blocks/heading/settings.js:157
+msgid "p"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:82
+msgid "Add Url"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:93
+msgid "Show Border"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:100
+msgid "Border Position"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:111
+#: src/blocks/heading/settings.js:590
+msgid "Subtitle"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:113
+msgid "Show Subtitle"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:121
+msgid "Border Subtitle"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:128
+msgid "Show Outline"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:135
+msgid "Subtitle Position"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:137
+msgid "After title"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:138
+msgid "Before title"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:146
+msgid "Subtitle HTML Tag"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:166
+#: src/blocks/heading/settings.js:847
+msgid "Title Description"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:168
+msgid "Show Description"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:177
+msgid "Maximum Width"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:202
+#: src/blocks/heading/settings.js:961
+msgid "Shadow Text"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:204
+msgid "Show Shadow Text"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:223
+#: src/blocks/heading/settings.js:882
+msgid "Separator"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:225
+msgid "Show Separator"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:233
+msgid "Separator Type"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:236
+msgid "Dotted"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:237
+msgid "Solid"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:238
+msgid "Solid With Star"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:239
+msgid "Solid With Bullet"
+msgstr ""
+
+#: build/311.js:1
+#: build/701.js:1
+#: src/blocks/container/settings.js:64
+#: src/blocks/heading/settings.js:240
+msgid "Custom"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:248
+msgid "Separator Position"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/heading/settings.js:251
+#: src/blocks/popup-builder/settings.js:2171
+#: src/blocks/popup-builder/settings.js:2285
+#: src/blocks/popup-builder/settings.js:2337
+#: src/blocks/popup-builder/settings.js:2367
+msgid "Top"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:252
+msgid "Before Title"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:253
+msgid "After Title"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/heading/settings.js:254
+#: src/blocks/popup-builder/settings.js:2187
+#: src/blocks/popup-builder/settings.js:2301
+#: src/blocks/popup-builder/settings.js:2345
+#: src/blocks/popup-builder/settings.js:2383
+msgid "Bottom"
+msgstr ""
+
+#: build/311.js:1
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:66
+#: src/blocks/heading/settings.js:264
+msgid "Choose Image"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/heading/settings.js:282
+#: src/blocks/popup-builder/settings.js:569
+msgid "General"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:330
+#: src/blocks/heading/settings.js:348
+#: src/blocks/heading/settings.js:464
+msgid "Hover Color"
+msgstr ""
+
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/advanced-image/settings.js:956
+#: src/blocks/advanced-paragraph/settings.js:193
+#: src/blocks/advanced-paragraph/settings.js:213
+#: src/blocks/advanced-paragraph/settings.js:354
+#: src/blocks/advanced-paragraph/settings.js:433
+#: src/blocks/button/settings.js:353
+#: src/blocks/form/settings.js:1767
+#: src/blocks/heading/settings.js:353
+#: src/blocks/heading/settings.js:488
+msgid "Text Shadow"
+msgstr ""
+
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/advanced-image/settings.js:941
+#: src/blocks/advanced-paragraph/settings.js:142
+#: src/blocks/advanced-paragraph/settings.js:232
+#: src/blocks/advanced-paragraph/settings.js:337
+#: src/blocks/advanced-paragraph/settings.js:423
+#: src/blocks/button/settings.js:347
+#: src/blocks/form/settings.js:1405
+#: src/blocks/form/settings.js:1436
+#: src/blocks/form/settings.js:1761
+#: src/blocks/form/settings.js:1893
+#: src/blocks/heading/settings.js:373
+#: src/blocks/heading/settings.js:471
+#: src/blocks/heading/settings.js:599
+#: src/blocks/heading/settings.js:854
+#: src/blocks/heading/settings.js:987
+msgid "Typography"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:381
+msgid "Border Width"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:389
+msgid "Border Height"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/heading/settings.js:397
+#: src/blocks/heading/settings.js:784
+#: src/blocks/popup-builder/settings.js:2764
+msgid "Vertical Position"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:410
+msgid "Right Gap"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:425
+msgid "Left Gap"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:438
+msgid "Border Color"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:455
+msgid "Focused Title"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:346
+#: src/blocks/heading/settings.js:480
+msgid "Text Decoration Color"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:383
+#: src/blocks/heading/settings.js:518
+msgid "Use background on text"
+msgstr ""
+
+#: build/311.js:1
+#: build/701.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:926
+#: src/blocks/advanced-paragraph/settings.js:259
+#: src/blocks/advanced-paragraph/settings.js:275
+#: src/blocks/advanced-paragraph/settings.js:390
+#: src/blocks/advanced-paragraph/settings.js:412
+#: src/blocks/advanced-paragraph/settings.js:443
+#: src/blocks/container/settings.js:526
+#: src/blocks/heading/settings.js:528
+#: src/blocks/heading/settings.js:556
+#: src/blocks/heading/settings.js:653
+#: src/blocks/heading/settings.js:666
+#: src/blocks/heading/settings.js:714
+#: src/blocks/popup-builder/settings.js:2451
+#: src/blocks/popup-builder/settings.js:2612
+#: src/blocks/popup-builder/settings.js:2630
+#: src/blocks/popup-builder/settings.js:2831
+#: src/blocks/popup-builder/settings.js:2903
+msgid "Background"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:405
+#: src/blocks/heading/settings.js:546
+#: src/blocks/heading/settings.js:646
+msgid "Use Text Fill"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:565
+msgid "Use Stroke"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:572
+#: src/blocks/heading/settings.js:998
+msgid "Stroke Width"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:580
+#: src/blocks/heading/settings.js:1006
+msgid "Stroke Color"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:664
+msgid "Subtitle Border Left"
+msgstr ""
+
+#: build/311.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:248
+#: src/blocks/button/settings.js:278
+#: src/blocks/heading/settings.js:673
+#: src/blocks/heading/settings.js:721
+#: src/blocks/heading/settings.js:888
+#: src/blocks/popup-builder/settings.js:2080
+msgid "Width"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:712
+msgid "Subtitle Border Right"
+msgstr ""
+
+#: build/311.js:1
+#: build/891.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:345
+#: src/blocks/heading/settings.js:762
+#: src/blocks/heading/settings.js:910
+#: src/blocks/popup-builder/settings.js:2107
+msgid "Height"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:813
+msgid "Outline"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:821
+msgid "Outline Radius"
+msgstr ""
+
+#: build/311.js:1
+#: src/blocks/heading/settings.js:931
+msgid "Separator color"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/form/settings.js:1656
+#: src/blocks/heading/settings.js:964
+#: src/blocks/popup-builder/settings.js:2206
+msgid "Position"
+msgstr ""
+
+#: build/311.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1464
+#: src/blocks/form/settings.js:1502
+#: src/blocks/form/settings.js:1540
+#: src/blocks/form/settings.js:1793
+#: src/blocks/form/settings.js:1824
+#: src/blocks/form/settings.js:1898
+#: src/blocks/heading/settings.js:992
+msgid "Text Color"
+msgstr ""
+
+#: build/311.js:1
+#: build/701.js:1
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: build/blocks/form/index.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:647
+#: src/blocks/advanced-image/settings.js:803
+#: src/blocks/advanced-paragraph/settings.js:450
+#: src/blocks/button/settings.js:467
+#: src/blocks/button/settings.js:487
+#: src/blocks/button/settings.js:531
+#: src/blocks/container/settings.js:639
+#: src/blocks/container/settings.js:659
+#: src/blocks/container/settings.js:704
+#: src/blocks/form/settings.js:1479
+#: src/blocks/form/settings.js:1517
+#: src/blocks/form/settings.js:1555
+#: src/blocks/form/settings.js:1808
+#: src/blocks/form/settings.js:1839
+#: src/blocks/form/settings.js:1908
+#: src/blocks/heading/settings.js:996
+#: src/blocks/popup-builder/settings.js:2466
+#: src/blocks/popup-builder/settings.js:2850
+#: src/blocks/popup-builder/settings.js:2922
+msgid "Border"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:38
+#: src/blocks/container/settings.js:488
+msgid "Layout"
+msgstr ""
+
+#: build/701.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/container/settings.js:50
+#: src/blocks/popup-builder/settings.js:2073
+msgid "Container"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:52
+msgid "Container Width"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:56
+#: src/blocks/container/settings.js:121
+msgid "Full Width"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:60
+#: src/blocks/container/settings.js:117
+msgid "Boxed"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:75
+msgid "Custom Width"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:113
+msgid "Content Width"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:132
+msgid "Content Box Width"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:168
+msgid "Min Height"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:197
+msgid "Items Properties"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:200
+msgid "Direction"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:208
+msgid "Row-horizontal"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:213
+msgid "Column-vertical"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:218
+msgid "Row Reverse"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:223
+msgid "Column Reverse"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:241
+msgid "Justify Content"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:256
+#: src/blocks/container/settings.js:314
+msgid "Start"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:266
+#: src/blocks/container/settings.js:324
+msgid "End"
+msgstr ""
+
+#: build/701.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/container/settings.js:271
+#: src/blocks/form/settings.js:702
+msgid "Space Between"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:276
+msgid "Space Around"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:281
+msgid "Spac Evenly"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:299
+msgid "Align Items"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:329
+msgid "Stretch"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:346
+msgid "Column Gap Between"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:391
+msgid "Row Gap Between"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:436
+#: src/blocks/container/settings.js:449
+msgid "Wrap"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:444
+msgid "No Wrap"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:466
+msgid "Additional Options"
+msgstr ""
+
+#: build/701.js:1
+#: build/891.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:1063
+#: src/blocks/container/settings.js:557
+#: src/blocks/container/settings.js:620
+#: src/blocks/container/settings.js:743
+#: src/blocks/popup-builder/settings.js:2584
+msgid "Transition Duration"
+msgstr ""
+
+#: build/701.js:1
+#: src/blocks/container/settings.js:577
+msgid "Background Overlay"
+msgstr ""
+
+#: build/701.js:1
+#: build/891.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:1022
+#: src/blocks/container/settings.js:579
+#: src/blocks/popup-builder/settings.js:2544
+msgid "Show Overlay"
+msgstr ""
+
+#: build/701.js:1
+#: build/891.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:1020
+#: src/blocks/advanced-image/settings.js:1046
+#: src/blocks/advanced-image/settings.js:1057
+#: src/blocks/container/settings.js:603
+#: src/blocks/container/settings.js:614
+#: src/blocks/popup-builder/settings.js:2567
+#: src/blocks/popup-builder/settings.js:2578
+msgid "Overlay"
+msgstr ""
+
+#: build/789.js:1
+#: build/891.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/advanced-image/settings.js:129
+#: src/blocks/advanced-image/settings.js:186
+#: src/blocks/button/settings.js:48
+#: src/blocks/form/settings.js:394
+msgid "None"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:52
+msgid "Open URL"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:56
+msgid "Close Current Campaign"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:60
+msgid "Download File"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:64
+msgid "Cookie Consent"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:64
+msgid "Cookie Consent (Pro)"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/button/settings.js:85
+#: src/blocks/form/settings.js:418
+msgid "Go to a Step"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:116
+msgid "Click Events"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:133
+msgid "Campaign will be closed if the user consents to cookies."
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/button/settings.js:147
+#: src/blocks/form/settings.js:586
+msgid "Select Step"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:154
+msgid "Set Cookies"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:165
+msgid "Add Cookies"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/button/settings.js:169
+#: src/blocks/popup-builder/settings.js:1862
+msgid "Cookie Name"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/button/settings.js:170
+#: src/blocks/popup-builder/settings.js:1885
+msgid "Enter Cookie Name"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/button/settings.js:175
+#: src/blocks/popup-builder/settings.js:1890
+msgid "Cookie Value"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/button/settings.js:176
+#: src/blocks/popup-builder/settings.js:1925
+#: src/blocks/popup-builder/settings.js:1946
+msgid "Enter Cookie Value"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:181
+msgid "Cookie Expires (in days)"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:182
+msgid "Enter Cookie Expires"
+msgstr ""
+
+#: build/789.js:1
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:223
+#: src/blocks/button/settings.js:191
+msgid "Track Conversion"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:203
+msgid "Enable to track conversions when the button is clicked."
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:208
+msgid "Add Icon"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:222
+msgid "Button Position"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:232
+msgid "Between Space"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/button/settings.js:275
+#: src/blocks/form/settings.js:570
+#: src/blocks/form/settings.js:1617
+msgid "Button"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/button/settings.js:362
+#: src/blocks/form/settings.js:1879
+msgid "Icon Size"
+msgstr ""
+
+#: build/789.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/button/settings.js:405
+#: src/blocks/button/settings.js:428
+#: src/blocks/form/settings.js:1803
+#: src/blocks/form/settings.js:1834
+msgid "Icon Color"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:435
+msgid "Transform Y"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:448
+msgid "Transform X"
+msgstr ""
+
+#: build/789.js:1
+#: src/blocks/button/settings.js:576
+msgid "Shadow"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:62
+#: src/blocks/advanced-image/settings.js:244
+msgid "Image"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:119
+#: src/blocks/advanced-image/settings.js:870
+msgid "Caption"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:136
+msgid "Attachment Caption"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:143
+#: src/blocks/advanced-image/settings.js:163
+msgid "Custom Caption"
+msgstr ""
+
+#: build/891.js:1
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-image/settings.js:179
+#: src/blocks/advanced-paragraph/settings.js:230
+msgid "Link"
+msgstr ""
+
+#: build/891.js:1
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/advanced-image/settings.js:193
+#: src/blocks/popup-builder/options.js:1285
+msgid "Custom URL"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:235
+msgid "Enable to track conversions when the image is clicked."
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:296
+msgid "Max Width"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:393
+msgid "Object Fit"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:404
+msgid "Default"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:411
+msgid "Fill"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:418
+msgid "Cover"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:425
+msgid "Scale Down"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:432
+msgid "Contain"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:453
+msgid "Object Position"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:464
+msgid "Center Center"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:471
+msgid "Center Left"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:478
+msgid "Center Right"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:485
+msgid "Top Left"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:492
+msgid "Top Center"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:499
+msgid "Top Right"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:506
+msgid "Bottom Left"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:513
+msgid "Bottom Center"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:520
+msgid "Bottom Right"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:585
+#: src/blocks/advanced-image/settings.js:717
+msgid "Zoom"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:604
+#: src/blocks/advanced-image/settings.js:736
+msgid "Opacity"
+msgstr ""
+
+#: build/891.js:1
+#: src/blocks/advanced-image/settings.js:779
+msgid "Transition Duration (s)"
+msgstr ""
+
+#: build/891.js:1
+#: build/blocks/form/index.js:1
+#: src/blocks/advanced-image/settings.js:977
+#: src/blocks/form/settings.js:1421
+msgid "Spacing"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:207
+#: src/admin/dashboard/components/Header.js:167
+#: src/admin/integration/components/ProModalNotice.js:17
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/dashboard/components/Header.js:175
+msgid "Help Center"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/context/provider.js:7
+#: src/admin/analytics/context/provider.js:9
+#: src/admin/subscribers/index.js:36
+#: src/admin/subscribers/index.js:37
+msgid "All Campaigns"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:45
+#: src/admin/subscribers/index.js:219
+msgid "Name"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:220
+msgid "Email"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:48
+#: src/admin/subscribers/index.js:222
+msgid "Date"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:293
+msgid "Filter By"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:305
+#: src/admin/subscribers/index.js:318
+msgid "Export Data"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:314
+msgid "Select a campaign name from the dropdown menu to view and export all the subscribers associated with it. Use the filters to narrow results by campaign and date."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:327
+msgid "Upgrade to Pro to export Subscribers data."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:66
+#: src/admin/subscribers/index.js:335
+msgid "5 / page"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:70
+#: src/admin/subscribers/index.js:339
+msgid "10 / page"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:74
+#: src/admin/subscribers/index.js:343
+msgid "20 / page"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:78
+#: src/admin/subscribers/index.js:347
+msgid "30 / page"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:82
+#: src/admin/subscribers/index.js:351
+msgid "50 / page"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:558
+#: src/admin/subscribers/index.js:378
+msgid "Select All"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:129
+#: src/admin/ab-testing/components/Repeater.js:55
+#: src/admin/ab-testing/components/TableList.js:107
+#: src/admin/campaign/index.js:49
+#: src/admin/subscribers/index.js:386
+msgid "Actions"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:591
+#: src/admin/subscribers/index.js:411
+msgid "Select Easter"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:417
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:425
+msgid "Details"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:431
+msgid "Upgrade to Pro to see the Subscriber's details."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:438
+#: src/admin/subscribers/index.js:454
+msgid "Delete"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:453
+msgid "Bulk Action:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:468
+msgid "No subscriber found."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:94
+#: src/admin/campaign/index.js:543
+#: src/admin/subscribers/index.js:469
+msgid "Nothing to show here yet."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:476
+msgid "You don’t have any subscribers yet."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:477
+msgid "Ready to attract high-quality subscribers with ease?"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:483
+msgid "How to Configure Subscriber"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:500
+msgid "Form Details"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:504
+msgid "Name:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:507
+msgid "Email:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:517
+msgid "User Details"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:520
+msgid "Campaign Name:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:566
+msgid "Are you sure to delete this subscriber?"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/subscribers/index.js:567
+msgid "Deleting this subscriber will remove all associated data."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/index.js:132
+#: src/admin/campaign/index.js:811
+#: src/admin/integration/index.js:542
+#: src/admin/settings/components/tabs/advanced/index.js:136
+#: src/admin/subscribers/index.js:571
+msgid "Yes, I'm Sure"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:4
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:195
+#: src/admin/ab-testing/index.js:136
+#: src/admin/campaign/index.js:815
+#: src/admin/integration/index.js:510
+#: src/admin/integration/index.js:545
+#: src/admin/integration/index.js:644
+#: src/admin/integration/index.js:765
+#: src/admin/integration/index.js:796
+#: src/admin/settings/components/tabs/advanced/index.js:140
+#: src/admin/subscribers/index.js:575
+msgid "Cancel"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/EmptyCard.js:12
+msgid "No data available"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Conversion.js:154
+msgid "Statistics"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Header.js:23
+msgid "Views "
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Header.js:38
+msgid "Conversions "
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Header.js:53
+msgid "Conversion rate"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Header.js:65
+msgid "Number of total views of campaigns by visitors"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Header.js:68
+msgid "Number of total converted visitor from campaigns"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Header.js:71
+msgid "The percentage of views that turned into conversions."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Device.js:129
+msgid "Devices"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Referrer.js:60
+msgid "Top Referres"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Referrer.js:68
+msgid "Url"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:127
+#: src/admin/analytics/components/Campaign.js:76
+#: src/admin/analytics/components/Referrer.js:69
+msgid "Conversions"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/LockedContent.js:9
+#: src/admin/analytics/components/Referrer.js:79
+msgid "This feature is available in Pro version"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Campaign.js:67
+msgid "Top Campaigns"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Country.js:77
+msgid "Countries"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/analytics/components/Browser.js:150
+msgid "Browsers"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/ProModalNotice.js:7
+msgid "Go Premium"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/ProModalNotice.js:8
+msgid "Purchase the"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/ProModalNotice.js:9
+msgid "Pro Version"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/ProModalNotice.js:10
+msgid "to unlock Advanced features!"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:6
+#: src/blocks/form/settings.js:817
+msgid "MailChimp"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:7
+msgid "Integrate PopupKit with Mailchimp to establish seamless email marketing with automation."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:18
+msgid "FluentCRM"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:19
+msgid "Automate, track, and analyze your email campaign with powerful FluentCRM integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:30
+msgid "ActiveCampaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:31
+msgid "Connect your Active Campaign with PopupKit to power up marketing, sales, and customer retention."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:43
+#: src/blocks/form/settings.js:741
+#: src/blocks/form/settings.js:909
+msgid "Zapier"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:44
+msgid "Automate your workflow by integrating with diverse powerful tools using Zapier integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:55
+msgid "HubSpot"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:56
+msgid "Integrate PopupKit with HubSpot to automate your marketing and sales processes."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:67
+#: src/blocks/form/settings.js:749
+#: src/blocks/form/settings.js:968
+msgid "Pabbly"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:68
+msgid "Easily Connect Multiple Applications & Automate your Tasks with Pabbly Connect"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:79
+#: src/blocks/form/settings.js:753
+#: src/blocks/form/settings.js:992
+msgid "AWeber"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:80
+msgid "Easily Connect Multiple Applications & Automate your Tasks with AWber Connect"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:91
+msgid "Zoho CRM"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:92
+msgid "Easily Connect Multiple Applications & Automate your Tasks with Zoho Connect"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:105
+msgid "Mailer Lite"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:106
+msgid "Automate your email campaign and expand your reach with Mailer Lite integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:117
+#: src/blocks/form/settings.js:765
+#: src/blocks/form/settings.js:1064
+msgid "ConvertKit"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:118
+msgid "Automate your email campaign and expand your reach with ConvertKit integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:130
+#: src/blocks/form/settings.js:769
+#: src/blocks/form/settings.js:1101
+msgid "Webhook"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:131
+msgid "Send data to a custom webhook URL when the form is submitted."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:142
+#: src/blocks/form/settings.js:1125
+msgid "Klaviyo"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:143
+msgid "Create, send, and automate email campaigns with Klaviyo integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:154
+#: src/blocks/form/settings.js:777
+#: src/blocks/form/settings.js:1160
+msgid "GetResponse"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:155
+msgid "Create, send, and automate email campaigns with GetResponse integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:166
+#: src/blocks/form/settings.js:781
+#: src/blocks/form/settings.js:1195
+msgid "MailPoet"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:167
+msgid "Create, send, and automate email campaigns with MailPoet integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:177
+#: src/blocks/form/settings.js:785
+#: src/blocks/form/settings.js:1247
+msgid "Brevo"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:178
+msgid "Create, send, and automate email campaigns with Brevo integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:189
+#: src/blocks/form/settings.js:789
+#: src/blocks/form/settings.js:1283
+msgid "Omnisend"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:190
+msgid "Create, send, and automate email campaigns with Omnisend integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: build/blocks/form/index.js:1
+#: src/admin/integration/components/Lists.js:201
+#: src/blocks/form/settings.js:793
+#: src/blocks/form/settings.js:1307
+msgid "Drip"
+msgstr ""
+
+#: build/admin/dashboard/index.js:1
+#: src/admin/integration/components/Lists.js:202
+msgid "Create, send, and automate email campaigns with Drip integration."
+msgstr ""
+
+#. translators: %s is the field label, e.g., "API Key"
+#: build/admin/dashboard/index.js:2
+#: src/admin/integration/components/InputField.js:10
+#, js-format
+msgid "Enter your %s"
+msgstr ""
+
+#: build/admin/dashboard/index.js:2
+#: src/admin/integration/index.js:299
+msgid "API Integrations"
+msgstr ""
+
+#: build/admin/dashboard/index.js:2
+#: src/admin/integration/index.js:346
+msgid "Manage"
+msgstr ""
+
+#: build/admin/dashboard/index.js:2
+#: src/admin/integration/index.js:384
+msgid "API Documentation"
+msgstr ""
+
+#: build/admin/dashboard/index.js:2
+#: src/admin/integration/index.js:391
+msgid "Connections"
+msgstr ""
+
+#. translators: %s is the name of the integration, e.g., Mailchimp
+#: build/admin/dashboard/index.js:3
+#: src/admin/integration/index.js:408
+#, js-format
+msgid "Add %s Integrations"
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:430
+#: src/admin/integration/index.js:441
+#: src/admin/integration/index.js:686
+#: src/admin/integration/index.js:696
+msgid "Note:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:430
+#: src/admin/integration/index.js:686
+msgid "You can get the authorize code by clicking the \"Get Authorize Code\" button."
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:444
+#: src/admin/integration/index.js:699
+msgid "Please ensure that the MailPoet plugin is <link>installed and activated</link> on your WordPress site for a successful integration."
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:455
+#: src/admin/integration/index.js:710
+msgid "installed and activated"
+msgstr ""
+
+#. translators: %s is the name of the integration, e.g., Mailchimp
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:473
+#: src/admin/integration/index.js:727
+#, js-format
+msgid "Connecting %s..."
+msgstr ""
+
+#. translators: %s is the name of the integration, e.g., Mailchimp
+#: build/admin/dashboard/index.js:3
+#: src/admin/integration/index.js:477
+#, js-format
+msgid "Connect %s Integration"
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: src/admin/integration/index.js:496
+msgid "Get Authorize Code"
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:505
+#: src/admin/integration/index.js:760
+msgid "Get Credentials"
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: src/admin/integration/index.js:535
+msgid "Are you sure you want to disconnect?"
+msgstr ""
+
+#: build/admin/dashboard/index.js:3
+#: src/admin/integration/index.js:536
+msgid "This action will interrupt all the active campaigns relying on it."
+msgstr ""
+
+#. translators: %s is the integration name, e.g., Mailchimp
+#: build/admin/dashboard/index.js:4
+#: src/admin/integration/index.js:555
+#, js-format
+msgid "Existing %s Integration"
+msgstr ""
+
+#: build/admin/dashboard/index.js:4
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:171
+#: src/admin/integration/index.js:586
+msgid "Edit"
+msgstr ""
+
+#: build/admin/dashboard/index.js:4
+#: src/admin/integration/index.js:603
+msgid "Disconnect"
+msgstr ""
+
+#: build/admin/dashboard/index.js:4
+#: src/admin/integration/index.js:617
+msgid "Changing this integration may impact connected campaigns. Please review and confirm settings after updating."
+msgstr ""
+
+#: build/admin/dashboard/index.js:4
+#: src/admin/integration/index.js:635
+msgid "Updating..."
+msgstr ""
+
+#. translators: %s is the name of the integration, e.g., Mailchimp
+#: build/admin/dashboard/index.js:4
+#: src/admin/integration/index.js:638
+#, js-format
+msgid "Update Integration To %s"
+msgstr ""
+
+#. translators: %s is the name of the integration, e.g., Mailchimp
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:673
+#, js-format
+msgid "Add a New %s Integration"
+msgstr ""
+
+#. translators: %s is the name of the integration, e.g., Mailchimp
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:731
+#, js-format
+msgid "Connect To %s"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/integration/index.js:792
+msgid "Add New Connection"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/filter/FilterType.js:58
+msgid "Type"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/filter/FiltersClear.js:19
+msgid "Clear Filters"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/header/HeaderTab.js:81
+msgid "Select a Campaign Type:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/header/HeaderTab.js:108
+msgid "Upcoming"
+msgstr ""
+
+#. translators: %s is the popup title entered by the user
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:118
+#, js-format
+msgid "Popup: %s"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:120
+msgid "Untitled Popup"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:208
+msgid "Campaign Type:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:210
+msgid "Unknown"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:216
+msgid "Goals:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:225
+msgid "Feature:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:234
+msgid "Industries:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:243
+msgid "Season:"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:254
+msgid "Importing..."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Dialog.js:254
+#: src/admin/templates/components/popups/Dialog.js:265
+msgid "Use This Template"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/DialogImport.js:34
+msgid "Create Your Campaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/DialogImport.js:40
+msgid "What is your campaign name?"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/DialogImport.js:41
+#: src/admin/templates/components/popups/DialogImport.js:46
+msgid "Enter the campaign title or leave it blank to use the default."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/DialogImport.js:54
+msgid "Type Campaign Title..."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/DialogImport.js:61
+msgid "Please fill out the campaign title before proceeding. To proceed"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/DialogImport.js:61
+msgid "with the campaign, click the \"Import\" button."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/NoMessage.js:11
+msgid "Oops! No templates are available for your current search."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Popup.js:55
+#: src/admin/templates/components/popups/Popup.js:66
+msgid "Use Template"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Popup.js:62
+msgid "Pro Upgrade"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/templates/components/popups/Popup.js:69
+msgid "Live Preview"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/settings/components/tabs/advanced/index.js:105
+msgid "Delete Analytics Data Manually"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/settings/components/tabs/advanced/index.js:118
+msgid "Delete Data"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/settings/components/tabs/advanced/index.js:131
+msgid "Are you sure to delete the selected analytics data?"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/settings/components/tabs/advanced/index.js:132
+msgid "Deleted data will not appear on the Analytics page."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:5
+msgid "You don’t have any active PopupKit."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:6
+msgid "Create a PopupKit and start your first campaign today."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:10
+msgid "No inactive campaigns at the moment."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:11
+msgid "Your active campaigns will appear here when deactivated."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:15
+msgid "No scheduled PopupKits found."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:16
+msgid "Set a date and time to make your campaigns go live seamlessly."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:20
+msgid "Your trash is currently empty."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/components/Lists.js:21
+msgid "All deleted items appear here. You can restore them or remove them permanently."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:41
+#: src/admin/campaign/index.js:501
+#: src/admin/dashboard/components/SearchInput.js:14
+msgid "Search..."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/utils/index.js:20
+msgid "(Copy)"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:19
+#: src/admin/campaign/index.js:46
+msgid "Status"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:47
+msgid "Stats"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:510
+msgid "Add New Campaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:542
+msgid "No campaigns found."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:730
+msgid "Restore"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:734
+msgid "Delete Permanently"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:739
+msgid "Move to Trash"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:747
+msgid "Choose Action"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:756
+msgid "Apply"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:773
+msgid "You haven’t created any campaigns yet!"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:774
+msgid "Grow your list, boost sales, and get more leads with your first PopupKit campaign today!"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:781
+msgid "Create Your First Campaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:786
+msgid "Get started by creating your first campaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:806
+msgid "Are you sure to delete this Campaign?"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/campaign/index.js:807
+msgid "Deleting this Campaign will remove all associated data."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Repeater.js:54
+msgid "Variants"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Repeater.js:98
+msgid "Duplicate Campaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Repeater.js:108
+msgid "Delete Variant"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Repeater.js:124
+msgid "Add Variant"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/RadioGroup.js:16
+msgid "Select winner manually or automatically"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:110
+msgid "Create an A/B Test"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:110
+msgid "Edit A/B Test"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:112
+msgid "A/B Testing Explained"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:123
+msgid "Enable Test"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:129
+msgid "Test Name"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:130
+msgid "My A/B Test"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:145
+msgid "Add Campaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:153
+msgid "Winner Selection"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:172
+msgid "Automated Winner Selection Parameter"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:179
+msgid "Test Duration (Days)"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:188
+msgid "You don’t have a Pro license yet. Upgrade today!"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:59
+msgid "Test name is required"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:63
+msgid "At least two variants are required"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Test.js:67
+msgid "All variants must have a selected campaign"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:18
+msgid "Test Title"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:20
+msgid "Winner Selection Type"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:21
+msgid "Duration"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:23
+#: src/admin/ab-testing/components/TableList.js:25
+msgid "Inactive"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:18
+#: src/admin/ab-testing/components/TableList.js:26
+msgid "Active"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:28
+#: src/admin/ab-testing/components/TableList.js:27
+msgid "Ended"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:76
+msgid "No active A/B tests found."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:77
+msgid "You have no active A/B tests at the moment. Create a new test to get started."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:80
+msgid "No inactive A/B tests found."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:81
+msgid "You have no inactive A/B tests at the moment."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:84
+msgid "No ended A/B tests found."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:85
+msgid "You have no ended A/B tests at the moment."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/TableList.js:93
+msgid "No A/B tests found."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:125
+msgid "Variant"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:126
+msgid "Views"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:128
+msgid "Conversion Rate"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:146
+msgid "Winner"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Details.js:159
+msgid "Select Winner"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Empty.js:14
+msgid "You haven’t created any A/B tests yet!"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Empty.js:16
+msgid "Start creating A/B tests to eliminate guesswork and focus on what drives the highest conversions."
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Empty.js:28
+msgid "Create Your First A/B Test"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: build/blocks/popup-builder/index.js:1
+#: src/admin/ab-testing/components/Header.js:13
+#: src/blocks/popup-builder/settings.js:677
+#: src/blocks/popup-builder/settings.js:700
+#: src/blocks/popup-builder/settings.js:736
+#: src/blocks/popup-builder/settings.js:759
+#: src/blocks/popup-builder/settings.js:783
+#: src/blocks/popup-builder/settings.js:840
+#: src/blocks/popup-builder/settings.js:864
+#: src/blocks/popup-builder/settings.js:975
+#: src/blocks/popup-builder/settings.js:999
+#: src/blocks/popup-builder/settings.js:1022
+#: src/blocks/popup-builder/settings.js:1045
+#: src/blocks/popup-builder/settings.js:1068
+#: src/blocks/popup-builder/settings.js:1091
+#: src/blocks/popup-builder/settings.js:1114
+#: src/blocks/popup-builder/settings.js:1137
+#: src/blocks/popup-builder/settings.js:1325
+#: src/blocks/popup-builder/settings.js:1339
+#: src/blocks/popup-builder/settings.js:1352
+#: src/blocks/popup-builder/settings.js:1365
+msgid "All"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/components/Header.js:57
+msgid "Create A/B Test"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/index.js:127
+msgid "Are you sure to delete this AB Test?"
+msgstr ""
+
+#: build/admin/dashboard/index.js:5
+#: src/admin/ab-testing/index.js:128
+msgid "Deleting this AB Test will remove all associated data."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/SignUp.js:40
+msgid "Welcome to"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/SignUp.js:40
+msgid "the world of PopupKit."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/SignUp.js:41
+msgid "Sign Up and Join a Thriving Community of Top Marketers, Developers, and Creators! ✨"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/SignUp.js:47
+msgid "Please enter valid email."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/SignUp.js:48
+msgid "We never spam."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/SignUp.js:48
+msgid "Promise!"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:6
+msgid "AI Content & SEO Tool"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:7
+msgid "Find top keywords, create winning content & track SEO results with AI."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:11
+msgid "Page Builder Blocks"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:12
+msgid "Complete site-building features & templates for Gutenberg Blocks."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:16
+msgid "WooCommerce Builder"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:17
+msgid "The ultimate solution to build a complete WooCommerce site in Gutenberg."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:21
+msgid "Page Builder Elements"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:22
+msgid "Best companion for Elementor with top widgets and templates."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:27
+msgid "Form Builder"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:28
+msgid "Most flexible form builder for Elementor with a wide range of features."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:33
+msgid "Table Builder"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:34
+msgid "Create responsive tables with advanced data in Gutenberg blocks."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:38
+msgid "Review Management"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:39
+msgid "Build credibility for your business with the all-in-one review plugin."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:43
+msgid "Social Integration"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/assets/js/pluginList.js:44
+msgid "WordPress integration with popular social platforms to show social proof."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/PowerUp.js:19
+msgid "Activated"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/PowerUp.js:43
+msgid "Build A Complete WordPress Website"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/PowerUp.js:44
+msgid "A fleet of plugins with all types of features you will need for WordPress."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/Finalize.js:54
+msgid "Setup Configurations"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/Finalize.js:70
+#: src/onboard/pages/Finalize.js:85
+msgid " Activated"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/Finalize.js:95
+msgid "Great! You’re All Set!"
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/Finalize.js:98
+msgid "Here’s an overview of everything that is setup."
+msgstr ""
+
+#: build/admin/onboard/index.js:1
+#: src/onboard/pages/Finalize.js:118
+msgid "Go to WP Dashboard"
+msgstr ""
+
+#: build/blocks/advanced-image/index.js:1
+#: src/blocks/advanced-image/edit.js:174
+msgid "Reset"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:57
+#: src/blocks/advanced-paragraph/settings.js:94
+msgid "Text"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:62
+msgid "Column"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:82
+msgid "Enable Drop Cap?"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:105
+msgid "Justify"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:150
+msgid "Column Gap"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:321
+msgid "Focused Text"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/settings.js:421
+msgid "Drop Cap"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/index.js:1
+#: src/blocks/advanced-paragraph/edit.js:53
+msgid "Enter your text here..."
+msgstr ""
+
+#: build/blocks/button/index.js:1
+#: src/blocks/button/edit.js:45
+msgid "Enter button text..."
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/components/form-repeater/index.js:145
+msgid "Add Field"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/components/form-repeater/index.js:150
+msgid "Add More Fields"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/components/form-repeater/index.js:151
+msgid "Add More Fields and also enjoy more exclusive features with PopupKit Pro."
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/components/integration/index.js:23
+msgid "Sync Accounts"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/components/integration/index.js:25
+msgid "Add New Account"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:395
+msgid "Redirect to Url"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:396
+msgid "Open Email Client"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:397
+msgid "Click to Call"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:398
+msgid "Copy Text"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:399
+msgid "Close Campaign"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:400
+msgid "Reload The Page"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:401
+msgid "Open in a New Window"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:450
+msgid "Form Fields"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:487
+msgid "Required?"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:505
+msgid "Rows"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:516
+msgid "Field Width"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:528
+msgid "Show Icon"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:557
+msgid "Show Label"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:563
+msgid "Required Mark"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:572
+msgid "After Submit Action"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:595
+msgid "Redirect URL"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:604
+msgid "Email Address"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:614
+msgid "Phone Number"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:624
+msgid "Text to Copy"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:633
+msgid "New Window URL"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:642
+msgid "Close Campaign?"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:648
+msgid "Delay time (s) to close campaign"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:655
+msgid "Conversion tracking?"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:662
+msgid "Button Width"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:672
+msgid "Use Icon"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:684
+msgid "Icon Position"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:715
+msgid "After Submission Message"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:725
+msgid "Select Integrations"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:729
+msgid "Mailchimp"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:733
+#: src/blocks/form/settings.js:854
+msgid "Fluent CRM"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:737
+#: src/blocks/form/settings.js:876
+msgid "Active Campaign"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:745
+#: src/blocks/form/settings.js:933
+msgid "Hubspot"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:757
+#: src/blocks/form/settings.js:1016
+msgid "Zoho"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:761
+#: src/blocks/form/settings.js:1040
+msgid "Mailerlite"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:773
+msgid "klaviyo"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:803
+msgid "Add Integrations"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:807
+msgid "Add and Unlock more integrations with PopupKit Pro"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:819
+#: src/blocks/form/settings.js:856
+#: src/blocks/form/settings.js:878
+#: src/blocks/form/settings.js:911
+#: src/blocks/form/settings.js:935
+#: src/blocks/form/settings.js:970
+#: src/blocks/form/settings.js:994
+#: src/blocks/form/settings.js:1018
+#: src/blocks/form/settings.js:1042
+#: src/blocks/form/settings.js:1066
+#: src/blocks/form/settings.js:1103
+#: src/blocks/form/settings.js:1127
+#: src/blocks/form/settings.js:1162
+#: src/blocks/form/settings.js:1197
+#: src/blocks/form/settings.js:1249
+#: src/blocks/form/settings.js:1285
+#: src/blocks/form/settings.js:1309
+msgid "Provider Account"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:833
+#: src/blocks/form/settings.js:892
+#: src/blocks/form/settings.js:1084
+#: src/blocks/form/settings.js:1142
+#: src/blocks/form/settings.js:1177
+#: src/blocks/form/settings.js:1213
+#: src/blocks/form/settings.js:1266
+msgid "Provider Lists"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:840
+msgid "Double Opt-in"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1334
+msgid "Form"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1378
+msgid "Columns Gap"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1390
+msgid "Rows Gap"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1403
+msgid "Label"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1410
+msgid "label Color"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1415
+msgid "Mark Color"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1434
+msgid "Field"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1454
+msgid "Focus"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1474
+#: src/blocks/form/settings.js:1512
+#: src/blocks/form/settings.js:1550
+msgid "Placeholder Color"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1620
+msgid "Use Position"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1670
+msgid "Horizontal Orientation"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1690
+#: src/blocks/form/settings.js:1734
+msgid "Offset"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1714
+msgid "Vertical Orientation"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/settings.js:1891
+msgid "Submission Message"
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/markup.js:44
+msgid "Enter Label..."
+msgstr ""
+
+#: build/blocks/form/index.js:1
+#: src/blocks/form/markup.js:84
+msgid "Subscribe"
+msgstr ""
+
+#: build/blocks/heading/index.js:1
+#: src/blocks/heading/parts/bottom.js:40
+#: src/blocks/heading/parts/top.js:46
+msgid "Write subtitle here..."
+msgstr ""
+
+#: build/blocks/heading/index.js:1
+#: src/blocks/heading/parts/bottom.js:62
+msgid "Write description here..."
+msgstr ""
+
+#: build/blocks/heading/index.js:1
+#: src/blocks/heading/edit.js:66
+#: src/blocks/heading/edit.js:81
+msgid "Enter your heading here..."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:5
+#: src/blocks/popup-builder/options.js:57
+msgid "Not Selected"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:12
+#: src/blocks/popup-builder/options.js:64
+msgid "On page load"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:19
+msgid "After Inactivity"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:26
+msgid "Page Scrolled"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:33
+msgid "On Page Exit Intent"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:40
+msgid "Custom Selector Click"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:47
+#: src/blocks/popup-builder/options.js:103
+msgid "Click Count"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:71
+msgid "After Inactivity (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:79
+msgid "Page Scrolled (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:87
+msgid "On Page Exit Intent (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:95
+msgid "Custom Selector Click (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:113
+#: src/blocks/popup-builder/options.js:375
+#: src/blocks/popup-builder/options.js:727
+#: src/blocks/popup-builder/options.js:885
+msgid "Fading"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:119
+#: src/blocks/popup-builder/options.js:381
+msgid "Fade In"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:125
+#: src/blocks/popup-builder/options.js:387
+msgid "Fade In Down"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:131
+#: src/blocks/popup-builder/options.js:393
+msgid "Fade In Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:137
+#: src/blocks/popup-builder/options.js:399
+msgid "Fade In Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:143
+#: src/blocks/popup-builder/options.js:405
+msgid "Fade In Up"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:150
+#: src/blocks/popup-builder/options.js:764
+msgid "Zooming"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:156
+#: src/blocks/popup-builder/options.js:421
+msgid "Zoom In"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:162
+#: src/blocks/popup-builder/options.js:430
+msgid "Zoom In Down"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:168
+#: src/blocks/popup-builder/options.js:439
+msgid "Zoom In Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:174
+#: src/blocks/popup-builder/options.js:448
+msgid "Zoom In Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:180
+#: src/blocks/popup-builder/options.js:457
+msgid "Zoom In Up"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:187
+msgid "Bouncing"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:193
+#: src/blocks/popup-builder/options.js:473
+msgid "Bounce In"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:199
+#: src/blocks/popup-builder/options.js:482
+msgid "Bounce In Down"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:205
+#: src/blocks/popup-builder/options.js:491
+msgid "Bounce In Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:211
+#: src/blocks/popup-builder/options.js:500
+msgid "Bounce In Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:217
+#: src/blocks/popup-builder/options.js:509
+msgid "Bounce In Up"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:224
+#: src/blocks/popup-builder/options.js:801
+msgid "Sliding"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:230
+#: src/blocks/popup-builder/options.js:525
+msgid "Slide In Down"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:236
+#: src/blocks/popup-builder/options.js:534
+msgid "Slide In Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:242
+#: src/blocks/popup-builder/options.js:543
+msgid "Slide In Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:248
+#: src/blocks/popup-builder/options.js:552
+msgid "Slide In Up"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:255
+#: src/blocks/popup-builder/options.js:832
+msgid "Rotating"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:261
+#: src/blocks/popup-builder/options.js:568
+msgid "Rotate In"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:267
+#: src/blocks/popup-builder/options.js:577
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:273
+#: src/blocks/popup-builder/options.js:586
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:279
+#: src/blocks/popup-builder/options.js:595
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:285
+#: src/blocks/popup-builder/options.js:604
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:292
+msgid "Attention Seekers"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:298
+#: src/blocks/popup-builder/options.js:620
+msgid "Bounce"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:304
+#: src/blocks/popup-builder/options.js:629
+msgid "Flash"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:310
+#: src/blocks/popup-builder/options.js:638
+msgid "Pulse"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:316
+#: src/blocks/popup-builder/options.js:647
+msgid "Rubber Band"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:322
+#: src/blocks/popup-builder/options.js:656
+msgid "Shake"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:328
+#: src/blocks/popup-builder/options.js:665
+msgid "Head Shake"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:334
+#: src/blocks/popup-builder/options.js:674
+msgid "Swing"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:340
+#: src/blocks/popup-builder/options.js:683
+msgid "Tada"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:346
+#: src/blocks/popup-builder/options.js:692
+msgid "Wobble"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:352
+#: src/blocks/popup-builder/options.js:701
+msgid "Jello"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:359
+#: src/blocks/popup-builder/options.js:869
+msgid "Specials"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:365
+#: src/blocks/popup-builder/options.js:717
+msgid "Roll In"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:412
+#: src/blocks/popup-builder/options.js:922
+msgid "Zooming (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:464
+msgid "Bouncing (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:516
+#: src/blocks/popup-builder/options.js:974
+msgid "Sliding (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:559
+#: src/blocks/popup-builder/options.js:1017
+msgid "Rotating (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:611
+msgid "Attention Seekers (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:708
+#: src/blocks/popup-builder/options.js:1069
+msgid "Specials (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:733
+#: src/blocks/popup-builder/options.js:891
+msgid "Fade Out"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:739
+#: src/blocks/popup-builder/options.js:897
+msgid "Fade Out Up"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:745
+#: src/blocks/popup-builder/options.js:903
+msgid "Fade Out Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:751
+#: src/blocks/popup-builder/options.js:909
+msgid "Fade Out Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:757
+#: src/blocks/popup-builder/options.js:915
+msgid "Fade Out Down"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:770
+#: src/blocks/popup-builder/options.js:931
+msgid "Zoom Out"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:776
+#: src/blocks/popup-builder/options.js:940
+msgid "Zoom Out Up"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:782
+#: src/blocks/popup-builder/options.js:949
+msgid "Zoom Out Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:788
+#: src/blocks/popup-builder/options.js:958
+msgid "Zoom Out Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:794
+#: src/blocks/popup-builder/options.js:967
+msgid "Zoom Out Down"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:807
+#: src/blocks/popup-builder/options.js:983
+msgid "Slide Out Up"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:813
+#: src/blocks/popup-builder/options.js:992
+msgid "Slide Out Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:819
+#: src/blocks/popup-builder/options.js:1001
+msgid "Slide Out Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:825
+#: src/blocks/popup-builder/options.js:1010
+msgid "Slide Out Down"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:838
+#: src/blocks/popup-builder/options.js:1026
+msgid "Rotate Out"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:844
+#: src/blocks/popup-builder/options.js:1035
+msgid "Rotate Out Up Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:850
+#: src/blocks/popup-builder/options.js:1044
+msgid "Rotate Out Up Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:856
+#: src/blocks/popup-builder/options.js:1053
+msgid "Rotate Out Down Left"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:862
+#: src/blocks/popup-builder/options.js:1062
+msgid "Rotate Out Down Right"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:875
+#: src/blocks/popup-builder/options.js:1078
+msgid "Roll Out"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1088
+#: src/blocks/popup-builder/options.js:1103
+msgid "Device"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1092
+msgid "Browser"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1096
+msgid "Location"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1107
+msgid "Browser (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1112
+msgid "Location (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1120
+#: src/blocks/popup-builder/options.js:1135
+msgid "Everyone"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1124
+msgid "Return"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1128
+msgid "New"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1139
+msgid "Return (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1144
+msgid "New (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1152
+#: src/blocks/popup-builder/options.js:1175
+msgid "Once a day"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1156
+msgid "Every Visit"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1160
+msgid "Every Session"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1164
+msgid "Once Every Few Days"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1168
+msgid "Once Every Few Visits"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1179
+msgid "Every Visit (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1184
+msgid "Every Session (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1189
+msgid "Once Every Few Days (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1194
+msgid "Once Every Few Visits (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1202
+#: src/blocks/popup-builder/options.js:1250
+msgid "Entire Site"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1209
+#: src/blocks/popup-builder/options.js:1257
+msgid "Singular"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1216
+#: src/blocks/popup-builder/options.js:1264
+msgid "Archive"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1223
+msgid "WooCommerce (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1231
+msgid "Easy Digital Downloads (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1239
+msgid "Custom URL (Pro)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1271
+msgid "WooCommerce"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/options.js:1278
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/components/geo-location/index.js:102
+msgid "Validate"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/components/location-repeater/index.js:118
+msgid "Add Item"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/components/location-repeater/index.js:140
+msgid "Add Group"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:234
+msgid "Display Options"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:236
+msgid "Campaign Type"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:239
+msgid "Popup"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:243
+msgid "Floating Bar"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:247
+msgid "Slide-In"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:251
+msgid "Full Screen"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:255
+msgid "Inline (Upcoming)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:272
+msgid "Open Event"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:286
+msgid "Assign an event to open the popup."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:291
+msgid "Open Delay (s)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:309
+msgid "User Inactivity Time (s)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:327
+msgid "Page Scroll Progress (%)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:346
+msgid "Selector Class"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:362
+msgid "Number of Clicks"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:375
+msgid "Entrance Animation"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:391
+msgid "Exit Animation"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:407
+msgid "Animation Duration (s)"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:425
+#: src/blocks/popup-builder/settings.js:2649
+msgid "Close Button"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:438
+#: src/blocks/popup-builder/settings.js:452
+msgid "Close on Clicking outside"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:456
+#: src/blocks/popup-builder/settings.js:1595
+#: src/blocks/popup-builder/settings.js:1739
+#: src/blocks/popup-builder/settings.js:2058
+msgid "Enjoy this feature and also more exclusive features with PopupKit Pro."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:481
+msgid "Prevent Background Scroll"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:497
+#: src/blocks/popup-builder/settings.js:511
+msgid "Hide PopupKit Badge"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:515
+msgid "Hide PopupKit Badge and enjoy more exclusive features with PopupKit Pro."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:525
+msgid "Display Conditions"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:542
+msgid "Add Condition"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:551
+msgid "Include"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:558
+msgid "Exclude"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:584
+msgid "Please make sure the <link>WooCommerce plugin</link> is activated on your site."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:595
+msgid "WooCommerce plugin"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:614
+msgid "Please make sure the <link>Easy Digital Downloads plugin</link> is activated on your site."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:625
+msgid "Easy Digital Downloads plugin"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:635
+msgid "Select Singular"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:647
+#: src/blocks/popup-builder/settings.js:652
+msgid "Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:649
+msgid "Front Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:655
+msgid "Child Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:658
+msgid "Page Template"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:661
+msgid "404 Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:664
+#: src/blocks/popup-builder/settings.js:830
+msgid "Post"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:666
+msgid "Posts"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:669
+msgid "In Post categories"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:672
+msgid "In Post tags"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:681
+msgid "Select Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:701
+msgid "Select Child Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:717
+msgid "Select Template"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:740
+msgid "Select Post"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:763
+#: src/blocks/popup-builder/settings.js:868
+msgid "Select Category"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:787
+#: src/blocks/popup-builder/settings.js:844
+msgid "Select Tag"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:807
+msgid "Select Archive"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:819
+msgid "All Archives"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:822
+msgid "Date Archives"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:825
+msgid "Author Archives"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:828
+#: src/blocks/popup-builder/settings.js:930
+msgid "Search Results"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:832
+msgid "Post categories"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:835
+msgid "Post tags"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:888
+msgid "Select Author"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:908
+msgid "Select WooCommerce"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:920
+msgid "Entire Shop"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:922
+#: src/blocks/popup-builder/settings.js:924
+msgid "Product Archive"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:927
+msgid "Shop Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:933
+msgid "Brands"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:936
+msgid "Product Categories"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:939
+msgid "Product Tags"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:942
+#: src/blocks/popup-builder/settings.js:944
+msgid "Products"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:947
+msgid "In Brands"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:950
+msgid "In Category"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:953
+msgid "In Tag"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:956
+msgid "Cart"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:958
+msgid "Cart Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:961
+msgid "Thank You Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:964
+msgid "Products in Cart"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:967
+msgid "Number of Products in Cart"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:970
+#: src/blocks/popup-builder/settings.js:1318
+msgid "Total Cart Price"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:979
+#: src/blocks/popup-builder/settings.js:1141
+msgid "Select Products"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1003
+#: src/blocks/popup-builder/settings.js:1026
+msgid "Select Brands"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1049
+#: src/blocks/popup-builder/settings.js:1072
+#: src/blocks/popup-builder/settings.js:1340
+msgid "Select Categories"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1095
+#: src/blocks/popup-builder/settings.js:1118
+#: src/blocks/popup-builder/settings.js:1353
+msgid "Select Tags"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1161
+#: src/blocks/popup-builder/settings.js:1214
+#: src/blocks/popup-builder/settings.js:1379
+#: src/blocks/popup-builder/settings.js:1407
+msgid "Select Condition"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1179
+#: src/blocks/popup-builder/settings.js:1232
+#: src/blocks/popup-builder/settings.js:1387
+#: src/blocks/popup-builder/settings.js:1415
+msgid "Less than"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1183
+#: src/blocks/popup-builder/settings.js:1236
+#: src/blocks/popup-builder/settings.js:1388
+#: src/blocks/popup-builder/settings.js:1416
+msgid "Greater than"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1187
+#: src/blocks/popup-builder/settings.js:1240
+#: src/blocks/popup-builder/settings.js:1389
+#: src/blocks/popup-builder/settings.js:1417
+msgid "Equal to"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1191
+#: src/blocks/popup-builder/settings.js:1244
+#: src/blocks/popup-builder/settings.js:1390
+#: src/blocks/popup-builder/settings.js:1418
+msgid "Not equal to"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1197
+msgid "Number of Products"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1250
+msgid "Cart price"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1268
+msgid "Select Easy Digital Downloads"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1280
+msgid "Entire EDD Shop"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1282
+msgid "Download Archives"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1284
+msgid "Download Archive"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1287
+msgid "Download Categories"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1290
+msgid "Download Tags"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1293
+msgid "Downloads"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1295
+msgid "In Downloads"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1298
+msgid "Single Page In Category"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1301
+msgid "Single Page In Tag"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1304
+msgid "Cart & Checkout"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1306
+msgid "Checkout Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1309
+msgid "Success/Thank You Page"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1312
+msgid "Downloads in Cart"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1315
+msgid "Number of Downloads in Cart"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1326
+#: src/blocks/popup-builder/settings.js:1366
+msgid "Select Downloads"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1394
+msgid "Number of Downloads"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1422
+msgid "Cart Price"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1434
+msgid "Select URL Condition"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1448
+#: src/blocks/popup-builder/settings.js:1865
+#: src/blocks/popup-builder/settings.js:1893
+msgid "Contains"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1452
+msgid "Not Contains"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1456
+msgid "Starts with"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1460
+msgid "Ends with"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1464
+#: src/blocks/popup-builder/settings.js:1877
+#: src/blocks/popup-builder/settings.js:1905
+msgid "Equal To"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1468
+msgid "Not equal To"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1474
+msgid "URL Value"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1476
+msgid "Enter URL"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1499
+msgid "Device Visibility"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1501
+msgid "Desktop"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1506
+msgid "Tablet"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1511
+msgid "Mobile"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1517
+msgid "Schedule Date & Time"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1520
+#: src/blocks/popup-builder/settings.js:1591
+msgid "Enable Scheduling"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1535
+msgid "Timezone"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1556
+msgid "If the site time zone is not set, UTC (Coordinated Universal Time) will be used as the default."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1560
+msgid "Start Date & Time"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1580
+msgid "End Date & Time"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1605
+msgid "Frequency Settings"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1607
+msgid "Display to visitors"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1620
+#: src/blocks/popup-builder/settings.js:1632
+msgid "Day Count"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1627
+msgid "The number of days since a New visitor last accessed your site."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1639
+msgid "The number of days since a Returning  visitor last accessed your site."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1645
+msgid "Display Frequency"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1659
+msgid "Display popup once per 30-minute session (just like Google Analytics definition)."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1664
+msgid "Days"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1680
+msgid "Visits"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1696
+msgid "Don't Show Popup"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1699
+msgid "To converted visitor"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1710
+msgid "After closes the campaign"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1718
+#: src/blocks/popup-builder/settings.js:1735
+msgid "After certain views"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1724
+msgid "Views Count"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1748
+#: src/blocks/popup-builder/settings.js:1827
+msgid "Geolocation Target"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1759
+msgid "Condition"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1762
+msgid "is"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1766
+msgid "is not"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1770
+msgid "is in the European Union"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1774
+msgid "is not in the European Union"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1782
+msgid "location:"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1783
+msgid "Once you have entered the location, click the Validate button to verify it."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1784
+msgid "Enter location"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1823
+msgid "Add Location"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1828
+msgid "Add geolocation to target specific area visitors with PopupKit Pro."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1837
+#: src/blocks/popup-builder/settings.js:1974
+msgid "Cookie Targeting"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1843
+#: src/blocks/popup-builder/settings.js:1970
+msgid "Add Cookie"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1847
+msgid "Show Condition"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1850
+msgid "Show Popup"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1854
+msgid "Don't show popup"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1869
+#: src/blocks/popup-builder/settings.js:1897
+msgid "Starts With"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1873
+#: src/blocks/popup-builder/settings.js:1901
+msgid "Ends With"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1909
+msgid "Greater Than"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1913
+msgid "Less Than"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1917
+msgid "Any value"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1975
+msgid "Add cookie targeting feature with PopupKit Pro."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1984
+msgid "IP Blocking"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1986
+msgid "Enable IP Blocking"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:1994
+msgid "Blocked IP Ranges"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2001
+msgid "Add IP Range"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2006
+msgid "From:"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2007
+#: src/blocks/popup-builder/settings.js:2013
+msgid "Enter IP Range"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2012
+msgid "To:"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2018
+msgid "Blocked Specific IPs"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2026
+msgid "Add Specific IPs"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2031
+msgid "IP Address:"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2032
+msgid "Enter IP Address"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2041
+msgid "Adblock Detection"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2044
+#: src/blocks/popup-builder/settings.js:2054
+msgid "Enable Adblock Detection"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2046
+msgid "Show popup when an ad blocker is detected on the visitor's browser."
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2136
+msgid "Custom Height"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2165
+msgid "Content Position"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2230
+#: src/blocks/popup-builder/settings.js:2396
+msgid "Horizontal"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2279
+#: src/blocks/popup-builder/settings.js:2361
+msgid "Vertical"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2331
+#: src/blocks/popup-builder/settings.js:2690
+msgid "Choose Position"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2536
+msgid "Overflow Visible"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2542
+msgid "Container Overlay"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2605
+msgid "Popup Background"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2655
+msgid "Change Icon"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2693
+msgid "Inside"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2700
+msgid "Outside"
+msgstr ""
+
+#: build/blocks/popup-builder/index.js:1
+#: src/blocks/popup-builder/settings.js:2741
+msgid "Horizontal Position"
+msgstr ""
+
+#: src/admin/templates/components/popups/DialogSteps.js:30
+msgid "Need Help?"
+msgstr ""
+
+#: src/admin/templates/components/popups/DialogSteps.js:45
+msgid "Congratulations!!"
+msgstr ""
+
+#: src/admin/templates/components/popups/DialogSteps.js:63
+msgid "View site"
+msgstr ""
+
+#: src/admin/templates/components/popups/DialogSteps.js:79
+msgid "Customize"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: src/blocks/advanced-image/block.json
+msgctxt "block title"
+msgid "Advanced Image"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: src/blocks/advanced-image/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: src/blocks/advanced-image/block.json
+msgctxt "block keyword"
+msgid "image schema"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: src/blocks/advanced-image/block.json
+msgctxt "block keyword"
+msgid "advanced image"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: src/blocks/advanced-image/block.json
+msgctxt "block keyword"
+msgid "image block"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: build/blocks/advanced-paragraph/block.json
+#: build/blocks/button/block.json
+#: build/blocks/container/block.json
+#: build/blocks/form/block.json
+#: build/blocks/heading/block.json
+#: src/blocks/advanced-image/block.json
+#: src/blocks/advanced-paragraph/block.json
+#: src/blocks/button/block.json
+#: src/blocks/container/block.json
+#: src/blocks/form/block.json
+#: src/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "popupkit"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: build/blocks/button/block.json
+#: build/blocks/container/block.json
+#: build/blocks/form/block.json
+#: build/blocks/icon/block.json
+#: src/blocks/advanced-image/block.json
+#: src/blocks/button/block.json
+#: src/blocks/container/block.json
+#: src/blocks/form/block.json
+#: src/blocks/icon/block.json
+msgctxt "block keyword"
+msgid "popup-builder-block"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: src/blocks/advanced-image/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr ""
+
+#: build/blocks/advanced-image/block.json
+#: src/blocks/advanced-image/block.json
+msgctxt "block description"
+msgid "Insert images into popups in one click."
+msgstr ""
+
+#: build/blocks/advanced-paragraph/block.json
+#: src/blocks/advanced-paragraph/block.json
+msgctxt "block title"
+msgid "Advanced Paragraph"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/block.json
+#: build/blocks/heading/block.json
+#: src/blocks/advanced-paragraph/block.json
+#: src/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/block.json
+#: src/blocks/advanced-paragraph/block.json
+msgctxt "block keyword"
+msgid "para"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/block.json
+#: src/blocks/advanced-paragraph/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/block.json
+#: src/blocks/advanced-paragraph/block.json
+msgctxt "block keyword"
+msgid "advanced paragraph"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/block.json
+#: src/blocks/advanced-paragraph/block.json
+msgctxt "block keyword"
+msgid "advanced"
+msgstr ""
+
+#: build/blocks/advanced-paragraph/block.json
+#: src/blocks/advanced-paragraph/block.json
+msgctxt "block description"
+msgid "Add and style paragraph text easily."
+msgstr ""
+
+#: build/blocks/button/block.json
+#: src/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr ""
+
+#: build/blocks/button/block.json
+#: src/blocks/button/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr ""
+
+#: build/blocks/button/block.json
+#: src/blocks/button/block.json
+msgctxt "block keyword"
+msgid "call"
+msgstr ""
+
+#: build/blocks/button/block.json
+#: src/blocks/button/block.json
+msgctxt "block keyword"
+msgid "call button"
+msgstr ""
+
+#: build/blocks/button/block.json
+#: src/blocks/button/block.json
+msgctxt "block description"
+msgid "Pre-built button blocks for instant use."
+msgstr ""
+
+#: build/blocks/container/block.json
+#: src/blocks/container/block.json
+msgctxt "block title"
+msgid "Container"
+msgstr ""
+
+#: build/blocks/container/block.json
+#: src/blocks/container/block.json
+msgctxt "block description"
+msgid "Organize layouts using flexible containers."
+msgstr ""
+
+#: build/blocks/container/block.json
+#: src/blocks/container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr ""
+
+#: build/blocks/container/block.json
+#: src/blocks/container/block.json
+msgctxt "block keyword"
+msgid "column"
+msgstr ""
+
+#: build/blocks/container/block.json
+#: src/blocks/container/block.json
+msgctxt "block keyword"
+msgid "group"
+msgstr ""
+
+#: build/blocks/container/block.json
+#: src/blocks/container/block.json
+msgctxt "block keyword"
+msgid "row"
+msgstr ""
+
+#: build/blocks/form/block.json
+#: src/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr ""
+
+#: build/blocks/form/block.json
+#: src/blocks/form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr ""
+
+#: build/blocks/form/block.json
+#: src/blocks/form/block.json
+msgctxt "block keyword"
+msgid "data"
+msgstr ""
+
+#: build/blocks/form/block.json
+#: src/blocks/form/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr ""
+
+#: build/blocks/form/block.json
+#: src/blocks/form/block.json
+msgctxt "block description"
+msgid "Quickly build forms with a drag-and-drop block."
+msgstr ""
+
+#: build/blocks/heading/block.json
+#: src/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr ""
+
+#: build/blocks/heading/block.json
+#: src/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr ""
+
+#: build/blocks/heading/block.json
+#: src/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr ""
+
+#: build/blocks/heading/block.json
+#: src/blocks/heading/block.json
+msgctxt "block description"
+msgid "Add bold, attention-grabbing headlines."
+msgstr ""
+
+#: build/blocks/icon/block.json
+#: src/blocks/icon/block.json
+msgctxt "block title"
+msgid "Icon"
+msgstr ""
+
+#: build/blocks/icon/block.json
+#: src/blocks/icon/block.json
+msgctxt "block keyword"
+msgid "popupki"
+msgstr ""
+
+#: build/blocks/icon/block.json
+#: src/blocks/icon/block.json
+msgctxt "block keyword"
+msgid "icon"
+msgstr ""
+
+#: build/blocks/icon/block.json
+#: src/blocks/icon/block.json
+msgctxt "block keyword"
+msgid "box"
+msgstr ""
+
+#: build/blocks/icon/block.json
+#: src/blocks/icon/block.json
+msgctxt "block description"
+msgid "Add ready-to-use icons to your popup."
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block title"
+msgid "Popup Builder"
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block keyword"
+msgid "popup"
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block keyword"
+msgid "popup builder"
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block keyword"
+msgid "popup block"
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block keyword"
+msgid "popup editor"
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block keyword"
+msgid "popup gutenberg"
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block keyword"
+msgid "modal"
+msgstr ""
+
+#: build/blocks/popup-builder/block.json
+#: src/blocks/popup-builder/block.json
+msgctxt "block description"
+msgid "Easily create popups with this builder block."
+msgstr ""
